@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { OUTDOOR_CATEGORIES } from "../assets/Outdoor";
+import { OUTDOOR_CATEGORIES } from "../assets/outdoor";
 import "./OutdoorLighting.css";
 
 /* ─── Icons ───────────────────────────────────────────────── */
