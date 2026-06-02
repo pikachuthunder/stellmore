@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
 import { INDOOR_CATEGORIES }  from "../assets/Indoor";
-import { OUTDOOR_CATEGORIES } from "../assets/Outdoor";
+import { OUTDOOR_CATEGORIES } from "../assets/outdoor";
 // Add more as you create them:
 // import { COMMERCIAL_CATEGORIES } from "../assets/Commercial";
 // import { CONTROLS_CATEGORIES }   from "../assets/Controls";
