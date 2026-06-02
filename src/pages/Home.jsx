@@ -19,7 +19,7 @@ function Home() {
         <Carousel.Item>
           <video
             className="hero-video"
-            src="https://res.cloudinary.com/dhbkiu6fy/video/upload/v1780385502/video_oyaliq.mp4" 
+            src="https://res.cloudinary.com/dhbkiu6fy/video/upload/q_auto,f_auto,vc_auto/v1780385502/video_oyaliq.mp4" 
             autoPlay
             loop
             muted
