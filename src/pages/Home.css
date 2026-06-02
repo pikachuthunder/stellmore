@@ -1,0 +1,152 @@
+
+
+.hero-slide {
+  width: 100%;
+  height: auto; 
+  aspect-ratio: 15 / 7; /* Or the aspect ratio of your actual images */
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+
+/* Dark overlay to make text and header more visible */
+.hero-slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Target the Bootstrap caption container */
+.carousel-caption {
+  /* Remove the default bottom positioning */
+  bottom: 0 !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  padding-bottom: 10px;
+  gap: 20px !important;
+
+  /* Use Flexbox to center the content inside */
+  display: flex !important;
+  flex-direction: column;    /* Stack H3 and P vertically */
+  justify-content: center;   /* Center horizontally */
+  align-items: center;       /* Center vertically */
+  
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+/* Style the text inside so it pops against the image */
+.carousel-caption h3 {
+  font-family: 'nunito', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 0px;
+  color:rgb(252, 251, 250);
+  text-transform: uppercase;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  max-width: 600px;
+  text-shadow: 1px 1px 5px rgba(252, 198, 1, 0.5);
+}
+/* Base styles for all outline buttons */
+.btn-outline {
+  background-color: transparent !important; /* Makes the box see-through */
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-family: 'nunito', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  transition: all 0.4s ease; /* Smooth transition for the hover effect */
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Plum Outline Version */
+.btn-plum-outline {
+  border: 2px solid var(--plum);
+  color: var(--plum);
+}
+
+.btn-plum-outline:hover {
+  background-color: var(--plum) !important; /* Fills the box on hover */
+  color: white; /* Changes text to white for contrast */
+  box-shadow: 0 8px 15px rgba(75, 40, 88, 0.2);
+}
+
+/* Gold Outline Version (Great for over images) */
+.btn-gold-outline {
+  border: 2px solid var(--gold);
+  color: var(--gold);
+}
+
+.btn-gold-outline:hover {
+  background-color: var(--gold) !important;
+  color: white;
+  box-shadow: 0 8px 15px rgba(212, 175, 55, 0.3);
+}
+
+/* White Outline Version (Specifically for dark hero images) */
+.btn-white-outline {
+  border: 2px solid white;
+  color: white;
+}
+
+.btn-white-outline:hover {
+  background-color: white !important;
+  color: var(--plum);
+}
+
+
+/* 1. Ensure the Carousel Item actually takes up the screen height */
+.carousel-item {
+  height: 100vh; 
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 2. Fix the video styling to ensure it stays in the background */
+.hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Keeps video full screen without stretching */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Behind the caption */
+}
+
+/* 3. Update home-container to prevent scrolling issues */
+.home-container {
+  height: 85vh;
+  width: 100%;
+  position: relative;
+  background-color: black; /* Acts as a fallback if video loads slowly */
+}
+/* Target all your main section containers */
+section, 
+.ms-collage-section, 
+.home-container, 
+.il-overlay {
+  margin: 0 !important;
+  /* Control the gap strictly with padding. 60px-80px is the "Sweet Spot" */
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+}
+
+/* Remove padding from the very first section so it touches the header/hero */
+section:first-of-type, 
+.home-container {
+  padding-top: 0 !important;
+}

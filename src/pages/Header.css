@@ -1,0 +1,85 @@
+:root {
+  --plum: #fffdfd;
+  --plum-light: #6b3d7d;
+  --gold: #d4af37;
+}
+
+.custom-nav {
+  /* --- New Hover Logic --- */
+  position: absolute; /* Makes it float over the content */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;      /* Keeps it on top of the image */
+  
+  /* Change background to transparent or a very light tint */
+  background: transparent !important; 
+  
+  backdrop-filter: blur(10px);
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-brand {
+  margin-top:20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'nunito', serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  color: var(--plum) !important; /* Change to white if your image is dark */
+  text-decoration: none;
+  padding: 10px 15px !important;
+}
+
+.nav-brand span { 
+  color: var(--gold); 
+}
+
+.nav-links .nav-link {
+  font-size: 0.90rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--plum) !important; /* Change to white if your image is dark */
+  font-weight: 600;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+  margin-top: 20px; /* Adjust this number to push them further down */
+  display: inline-block; /* Ensures the margin is applied correctly */
+}
+
+.nav-links .nav-link:hover { 
+  opacity: 1; 
+}
+
+.navbar-logo-img {
+  height: 60px; /* Reduced slightly to fit better in the 68px height */
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+/* Dark background for the dropdown menu */
+.dropdown-menu {
+  background-color: #141414; 
+  border: 1px solid #c8a96e; /* Using your gold accent color */
+}
+
+/* Gold text on hover */
+.dropdown-item {
+  color: #f0ece4;
+  font-size: 0.85rem;
+  padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+  background-color: #1e1e1e;
+  color: #c8a96e;
+}
+
+/* The arrow color */
+.navbar-nav .nav-link.show {
+  color: #c8a96e !important;
+}

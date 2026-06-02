@@ -1,0 +1,388 @@
+/* Downloads.css — matches Stellmore dark theme */
+
+.dl-page {
+  min-height: 100vh;
+  background: #080808;
+  color: #e0e0e0;
+  font-family: var(--font-body, 'DM Sans', sans-serif);
+}
+
+/* ── HERO ─────────────────────────────────────────────────── */
+.dl-hero {
+  padding: 64px 48px 48px;
+  border-bottom: 1px solid #111;
+  background: linear-gradient(180deg, #0e0e0e 0%, #080808 100%);
+}
+.dl-hero-eye {
+  font-size: 0.62rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #c8a96e;
+  margin: 0 0 10px;
+}
+.dl-hero-title {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin: 0 0 12px;
+  font-family: var(--font-display, 'Cormorant Garamond', serif);
+}
+.dl-hero-sub {
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.7;
+  margin: 0 0 20px;
+  max-width: 480px;
+}
+.dl-hero-count {
+  font-size: 0.78rem;
+  color: #3a3a3a;
+}
+.dl-hero-count strong {
+  color: #c8a96e;
+  font-size: 1.6rem;
+  font-family: var(--font-display, 'Cormorant Garamond', serif);
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+/* ── CONTROLS ─────────────────────────────────────────────── */
+.dl-controls {
+  padding: 22px 48px;
+  border-bottom: 1px solid #0f0f0f;
+  background: #090909;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Search */
+.dl-search-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #0e0e0e;
+  border: 1px solid #1a1a1a;
+  border-radius: 6px;
+  padding: 8px 14px;
+  max-width: 440px;
+  color: #444;
+  transition: border-color 0.2s;
+}
+.dl-search-wrap:focus-within {
+  border-color: #c8a96e;
+  color: #888;
+}
+.dl-search {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  color: #ccc;
+  font-size: 0.82rem;
+  font-family: inherit;
+}
+.dl-search::placeholder { color: #333; }
+.dl-clear {
+  background: none;
+  border: none;
+  color: #444;
+  cursor: pointer;
+  font-size: 0.7rem;
+  padding: 0 2px;
+  transition: color 0.15s;
+}
+.dl-clear:hover { color: #c8a96e; }
+
+/* Section tabs */
+.dl-tabs {
+  display: flex;
+  gap: 2px;
+  background: #0e0e0e;
+  border: 1px solid #1a1a1a;
+  border-radius: 6px;
+  padding: 3px;
+  width: fit-content;
+}
+.dl-tab {
+  padding: 6px 16px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  background: none;
+  border: none;
+  border-radius: 4px;
+  color: #555;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s;
+}
+.dl-tab:hover { color: #aaa; }
+.dl-tab.active {
+  background: #c8a96e;
+  color: #0a0a0a;
+  font-weight: 700;
+}
+
+/* Category pills */
+.dl-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.dl-pill {
+  padding: 5px 13px;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  background: #0e0e0e;
+  color: #555;
+  border: 1px solid #1a1a1a;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.dl-pill:hover { color: #aaa; border-color: #2a2a2a; }
+.dl-pill.active {
+  background: #c8a96e;
+  color: #0a0a0a;
+  border-color: #c8a96e;
+  font-weight: 700;
+}
+
+.dl-tally {
+  font-size: 0.66rem;
+  color: #333;
+  margin: 0;
+  letter-spacing: 0.04em;
+}
+
+/* ── BODY ─────────────────────────────────────────────────── */
+.dl-body {
+  padding: 36px 48px 80px;
+}
+
+/* Section heading */
+.dl-sec-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 28px;
+  margin-top: 48px;
+}
+.dl-sec-head:first-child { margin-top: 0; }
+.dl-sec-title {
+  font-size: 0.62rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #c8a96e;
+  font-weight: 600;
+  margin: 0;
+  white-space: nowrap;
+}
+.dl-sec-rule {
+  flex: 1;
+  height: 1px;
+  background: #111;
+}
+
+/* Category block */
+.dl-cat-block { margin-bottom: 44px; }
+.dl-cat-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #0f0f0f;
+}
+.dl-cat-title {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #999;
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+.dl-cat-count {
+  font-size: 0.62rem;
+  color: #333;
+  letter-spacing: 0.06em;
+}
+
+/* ── GRID ─────────────────────────────────────────────────── */
+.dl-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 14px;
+}
+
+/* ── PDF CARD ─────────────────────────────────────────────── */
+.dl-card {
+  background: #0d0d0d;
+  border: 1px solid #161616;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+.dl-card:hover {
+  border-color: #c8a96e;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  text-decoration: none;
+  color: inherit;
+}
+
+/* PDF thumbnail area */
+.dl-card-thumb {
+  background: linear-gradient(150deg, #111 0%, #0a0a0a 100%);
+  padding: 24px 0 20px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #131313;
+}
+.dl-card-thumb svg {
+  width: 52px;
+  height: 65px;
+  filter: drop-shadow(0 4px 10px rgba(0,0,0,0.5));
+}
+
+/* Info section */
+.dl-card-info {
+  padding: 12px 14px 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.dl-card-cat {
+  font-size: 0.58rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #3a3a3a;
+}
+.dl-card-name {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #bbb;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Download button strip */
+.dl-card-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: 0 12px 12px;
+  padding: 8px 0;
+  background: #111;
+  border: 1px solid #1a1a1a;
+  border-radius: 4px;
+  color: #666;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  transition: all 0.15s;
+}
+.dl-card:hover .dl-card-action {
+  background: #c8a96e;
+  border-color: #c8a96e;
+  color: #0a0a0a;
+}
+
+/* ── EMPTY STATE ──────────────────────────────────────────── */
+.dl-empty {
+  text-align: center;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.dl-empty-icon { font-size: 2.5rem; color: #1a1a1a; }
+.dl-empty-title { font-size: 0.95rem; color: #444; margin: 0; }
+.dl-empty-sub { font-size: 0.75rem; color: #2a2a2a; margin: 0 0 8px; }
+
+/* ── RESPONSIVE ───────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .dl-hero,
+  .dl-controls,
+  .dl-body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .dl-hero { padding-top: 40px; }
+  .dl-controls { position: static; }
+  .dl-grid { grid-template-columns: repeat(auto-fill, minmax(145px, 1fr)); }
+}
+
+@media (max-width: 420px) {
+  .dl-grid { grid-template-columns: 1fr 1fr; }
+}
+
+/* ── Add these rules to Downloads.css ───────────────────── */
+
+/* ── Add these rules to Downloads.css ───────────────────── */
+
+/* Card thumb — fixed size container for both image and SVG */
+.dl-card-thumb {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 6px 6px 0 0;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Product cover image — full visible, no crop, no zoom */
+.dl-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* "PDF" badge overlaid on the image */
+.dl-card-img-badge {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background: rgba(13, 13, 13, 0.75);
+  border: 1px solid rgba(200, 169, 110, 0.4);
+  color: #c8a96e;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 3px 7px;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  backdrop-filter: blur(4px);
+}
+
+/* SVG fallback — keep it centred and sized */
+.dl-card-thumb svg {
+  width: 56px;
+  height: 70px;
+  flex-shrink: 0;
+}
