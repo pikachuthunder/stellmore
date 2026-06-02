@@ -4,7 +4,7 @@ import mile_2 from '../assets/milestone/M_2.jpeg';
 import mile_3 from '../assets/milestone/M_3.jpeg';
 import mile_4 from '../assets/milestone/M_4.jpeg';
 import mile_7 from '../assets/milestone/M_7.jpg';
-import mile_8 from '../assets/milestone/M_8.jpEg';
+import mile_8 from '../assets/milestone/M_8.jpeg';
 import mile_6 from '../assets/nakheel.jpeg';
 import vero from '../assets/Brand/verolite.jpg';
 import vero1 from '../assets/Brand/vero_1.png';
