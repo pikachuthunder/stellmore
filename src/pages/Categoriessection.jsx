@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./categories.css";
 import architectural from '../assets/architectural.jpg';
 import hero3 from '../assets/hero3.jpg';
-import industrial from '../assets/industrial.jpg';
+import industrial from '../assets/Industrial.jpg';
 import controls from '../assets/controls.jpg';
 
 const CATEGORIES = [
