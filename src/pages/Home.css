@@ -186,4 +186,9 @@ section:first-of-type,
     gap: 12px !important;
     align-items: center;
   }
+  .carousel,
+.carousel-inner {
+  height: 100svh;
+  height: -webkit-fill-available;
+}
 }

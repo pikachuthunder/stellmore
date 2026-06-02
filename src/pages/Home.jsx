@@ -23,6 +23,8 @@ function Home() {
             autoPlay
             loop
             muted
+            webkit-playsinline="true"     
+            x5-playsinline="true" 
             playsInline
           />
           {/* <div 
