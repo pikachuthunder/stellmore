@@ -51,8 +51,8 @@ export default function CategoriesSection({ onNavigate }) {
       navigate("/outdoor-lighting");
     } else if (cat.id === "industrial") {
       navigate("/industrial-lighting");
-    // } else if (cat.id === "controls") {
-    //   navigate("/lighting-controls");
+    } else if (cat.id === "controls") {
+      navigate("/lighting-controls");
     }
   }, [navigate]);
 

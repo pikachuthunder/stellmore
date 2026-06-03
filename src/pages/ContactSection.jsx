@@ -38,29 +38,39 @@ export default function ContactSection() {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
 
-    const to = "sales2@cityfanooslighting.com";
-    const subject = encodeURIComponent(
-      "Enquiry from " + form.name + (form.company ? " — " + form.company : "")
-    );
-    const body = encodeURIComponent(
-      "Name: " + form.name + "\n" +
-      "Email: " + form.email + "\n" +
-      "Phone: " + (form.phone || "—") + "\n" +
-      "Company / Project: " + (form.company || "—") + "\n" +
-      "Service Required: " + (form.service || "—") + "\n\n" +
-      "Message:\n" + form.message
-    );
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          access_key: "6aaa0257-66f9-47b0-b624-b5d293363ced",
+          subject: `New Enquiry from ${form.name} — City Fanoos`,
+          name: form.name,
+          email: form.email,
+          phone: form.phone || "—",
+          company: form.company || "—",
+          service: form.service || "—",
+          message: form.message,
+          from_name: "City Fanoos Website",
+        }),
+      });
 
-    window.location.href = "mailto:" + to + "?subject=" + subject + "&body=" + body;
-
-    setTimeout(() => {
+      const data = await response.json();
       setLoading(false);
-      setSubmitted(true);
-    }, 1800);
+
+      if (data.success) {
+        setSubmitted(true);
+      } else {
+        alert("Something went wrong. Please email us directly at sales2@cityfanooslighting.com");
+      }
+    } catch (error) {
+      setLoading(false);
+      alert("Something went wrong. Please email us directly at sales2@cityfanooslighting.com");
+    }
   };
 
   return (
@@ -104,7 +114,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <p className="contact-info-label">Phone</p>
-                <p className="contact-info-value">+971 4 228 8067 , +971 52 862 7978</p>
+                <p className="contact-info-value">+971 4 228 8067 , +971 50 199 3947</p>
               </div>
             </div>
 

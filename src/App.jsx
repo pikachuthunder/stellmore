@@ -8,6 +8,7 @@ import Outdoor from "./pages/Outdoor"
 import Industrial from './pages/industrial'
 import DownloadsPage from "./pages/Downloads"
 import AboutUsPage from "./pages/Aboutus"
+import LightingControls from "./pages/LightingControls"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/projects"           element={<Projects />} />
         <Route path="/indoor-lighting"    element={<Indoor />} />
         <Route path="/outdoor-lighting"   element={<Outdoor />} />
+        <Route path="/lighting-controls"   element={<LightingControls />} />
         <Route path="/industrial-lighting" element={<Industrial />} />
         <Route path="/downloads"          element={<DownloadsPage />} />
         <Route path="/about"              element={<AboutUsPage />} />

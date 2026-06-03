@@ -19,7 +19,7 @@ function Header() {
             <NavDropdown.Item as={Link} to="/indoor-lighting">Indoor Lighting</NavDropdown.Item>
             <NavDropdown.Item href="#outdoor">Outdoor Lighting</NavDropdown.Item>
             <NavDropdown.Item href="#industrial">Industrial Lighting</NavDropdown.Item>
-            <NavDropdown.Item href="#controls">Lighting Controls</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/lighting-controls">Lighting Controls</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="#product-section">View All Categories</NavDropdown.Item>
           </NavDropdown>
@@ -27,7 +27,22 @@ function Header() {
           <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
           <Nav.Link as={Link} to="/downloads">Downloads</Nav.Link>
           <Nav.Link as={Link} to="/about">About Us</Nav.Link>
-          <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
+          <Nav.Link
+  as={Link}
+  to="/"
+  onClick={(e) => {
+    e.preventDefault();
+    const contact = document.getElementById("contact");
+    if (contact) {
+      contact.scrollIntoView({ behavior: "smooth" });
+    } else {
+      // If not on home page, navigate home then scroll
+      window.location.href = "/#contact";
+    }
+  }}
+>
+  Contact Us
+</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
