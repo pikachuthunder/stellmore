@@ -8,7 +8,7 @@ import Outdoor from "./pages/Outdoor"
 import Industrial from './pages/industrial'
 import DownloadsPage from "./pages/Downloads"
 import AboutUsPage from "./pages/Aboutus"
-import LightingControls from "./pages/LightingControls"
+import LightingControls from "./pages/Lightingcontrols"
 
 function App() {
   return (
