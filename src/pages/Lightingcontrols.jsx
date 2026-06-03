@@ -1,4 +1,4 @@
-import "./LightingControls.css";
+import "./Lightingcontrols.css";
 
 const BRANDS = [
   { id: "casambi",  name: "Casambi" },
