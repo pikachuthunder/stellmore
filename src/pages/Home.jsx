@@ -26,6 +26,8 @@ function Home() {
             webkit-playsinline="true"     
             x5-playsinline="true" 
             playsInline
+            disablePictureInPicture
+            disableRemotePlayback
           />
           {/* <div 
             className="hero-slide" 
