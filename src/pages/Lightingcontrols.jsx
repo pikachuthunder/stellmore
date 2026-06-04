@@ -29,7 +29,7 @@ export default function LightingControls() {
       <div className="lc-hero">
         {/* Replace the src below with your actual image import */}
         <img
-          src="/src/assets/lighting_controls.png"
+          src="/images/lighting_controls.png"
           alt="Lighting Controls Products"
           className="lc-hero-img"
         />
