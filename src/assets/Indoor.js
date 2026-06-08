@@ -19,7 +19,7 @@ export const INDOOR_CATEGORIES = [
     id: "recessed",
     label: "Recessed Lights",
     tagline: "Clean ceiling integration, zero visual noise.",
-    img: PLACEHOLDER_IMG,
+    img: "/images/indoor_new/Stellmore_Italia_Tono.jpg",
     products: [
 
       // ── AINA ──
@@ -35,20 +35,19 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Aina", url: "/datasheets/indoor/Stellmore Italia Aina.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "3W",  lumens: "255 lm",   dims: "45×45×36 mm",  code: "STR-102-25-3",  tag: null },
-          { wattage: "6W",  lumens: "510 lm",   dims: "75×45×36 mm",  code: "STR-102-25-6",  tag: null },
-          { wattage: "9W",  lumens: "765 lm",   dims: "105×45×36 mm", code: "STR-102-25-9",  tag: null },
+          { wattage: "3W",  lumens: "255 lm",   dims: "45×45×36 mm",  code: "STR-102-25-3" },
+          { wattage: "6W",  lumens: "510 lm",   dims: "75×45×36 mm",  code: "STR-102-25-6" },
+          { wattage: "9W",  lumens: "765 lm",   dims: "105×45×36 mm", code: "STR-102-25-9" },
           { wattage: "15W", lumens: "1,275 lm", dims: "148×45×41 mm", code: "STR-102-25-15", tag: "BESTSELLER" },
-          { wattage: "30W", lumens: "2,550 lm", dims: "237×38×41 mm", code: "STR-102-25-30", tag: null },
-        ],
+          { wattage: "30W", lumens: "2,550 lm", dims: "237×38×41 mm", code: "STR-102-25-30" },
+        ]
       },
 
       // ── ALBA ──
@@ -64,18 +63,17 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "stellmore Italia alba", url: "/datasheets/indoor/stellmore Italia alba.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH",
           material: "Aviation Aluminium",
-          dimming: "Triac · 0/1–10V · DALI",
+          dimming: "Triac · 0/1–10V · DALI"
         },
         variants: [
-          { wattage: "3W",  lumens: "255 lm",   dims: "Ø45×30 mm",  code: "STR-202-02-3",  tag: null },
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø67×42 mm",  code: "STR-202-02-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø82×54 mm",  code: "STR-202-02-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø100×80 mm", code: "STR-202-02-18", tag: null },
-        ],
+          { wattage: "3W",  lumens: "255 lm",   dims: "Ø45×30 mm",  code: "STR-202-02-3" },
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø67×42 mm",  code: "STR-202-02-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø82×54 mm",  code: "STR-202-02-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø100×80 mm", code: "STR-202-02-18" },
+        ]
       },
 
       // ── ALBAVIVA ──
@@ -91,18 +89,17 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Albaviva", url: "/datasheets/indoor/Stellmore Italia Albaviva.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Die Cast Aluminium",
-          dimming: "Triac · 0/1–10V · DALI",
+          dimming: "Triac · 0/1–10V · DALI"
         },
         variants: [
-          { wattage: "5W",  lumens: "425 lm",   dims: "Ø40×57 mm",  code: "STR-202-23A-5",  tag: null },
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø45×73 mm",  code: "STR-202-23A-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø60×85 mm",  code: "STR-202-23A-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø74×102 mm", code: "STR-202-23A-18", tag: null },
-        ],
+          { wattage: "5W",  lumens: "425 lm",   dims: "Ø40×57 mm",  code: "STR-202-23A-5" },
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø45×73 mm",  code: "STR-202-23A-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø60×85 mm",  code: "STR-202-23A-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø74×102 mm", code: "STR-202-23A-18" },
+        ]
       },
 
       // ── ALVISE-R ──
@@ -118,18 +115,17 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore italia Alvise R", url: "/datasheets/indoor/Stellmore italia Alvise R.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Die Cast Aluminium",
-          dimming: "Triac · 0/1–10V · DALI",
+          dimming: "Triac · 0/1–10V · DALI"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø60×65 mm",   code: "STR-202-23-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø85×80 mm",   code: "STR-202-23-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø95×100 mm",  code: "STR-202-23-18", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "Ø108×120 mm", code: "STR-202-23-30", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø60×65 mm",   code: "STR-202-23-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø85×80 mm",   code: "STR-202-23-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø95×100 mm",  code: "STR-202-23-18" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø108×120 mm", code: "STR-202-23-30" },
+        ]
       },
 
       // ── ALVISE-S ──
@@ -145,16 +141,15 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Alvise S", url: "/datasheets/indoor/Stellmore Italia Alvise S.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Die Cast Aluminium",
-          dimming: "Triac · 0/1–10V · DALI",
+          dimming: "Triac · 0/1–10V · DALI"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "57×57×68 mm", code: "STR-102-23-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "80×80×78 mm", code: "STR-102-23-12", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "57×57×68 mm", code: "STR-102-23-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "80×80×78 mm", code: "STR-102-23-12" },
+        ]
       },
 
       // ── ALVISE-SD ──
@@ -170,16 +165,15 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Alvise sd", url: "/datasheets/indoor/Stellmore Italia Alvise sd.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Die Cast Aluminium",
-          dimming: "Triac · 0/1–10V · DALI",
+          dimming: "Triac · 0/1–10V · DALI"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "76×76×77 mm",  code: "STR-101-39-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "93×93×100 mm", code: "STR-101-39-12", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "76×76×77 mm",  code: "STR-101-39-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "93×93×100 mm", code: "STR-101-39-12" },
+        ]
       },
 
       // ── BELLANCE ──
@@ -199,12 +193,12 @@ export const INDOOR_CATEGORIES = [
           adjustable: "Yes", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH",
           material: "Die Cast Aluminium",
-          dimming: "Triac · 0/1–10V · DALI",
+          dimming: "Triac · 0/1–10V · DALI"
         },
         variants: [
-          { wattage: "7W",  lumens: "595–735 lm",   dims: "Ø62×43 mm", code: "STR-203-81-7",  tag: null },
-          { wattage: "12W", lumens: "1,020–1,260 lm", dims: "Ø82×45 mm", code: "STR-203-81-12", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595–735 lm",   dims: "Ø62×43 mm", code: "STR-203-81-7" },
+          { wattage: "12W", lumens: "1,020–1,260 lm", dims: "Ø82×45 mm", code: "STR-203-81-12" },
+        ]
       },
 
       // ── BIANCO ──
@@ -220,16 +214,15 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Bianco", url: "/datasheets/indoor/Stellmore Italia Bianco.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "BK",
           material: "Die Cast Aluminium",
-          dimming: "Triac · 0/1–10V · DALI",
+          dimming: "Triac · 0/1–10V · DALI"
         },
         variants: [
-          { wattage: "9W",  lumens: "765 lm",   dims: "Ø85×80 mm", code: "STR-203-80-9",  tag: null },
-          { wattage: "15W", lumens: "1,275 lm", dims: "Ø85×80 mm", code: "STR-203-80-15", tag: null },
-        ],
+          { wattage: "9W",  lumens: "765 lm",   dims: "Ø85×80 mm", code: "STR-203-80-9" },
+          { wattage: "15W", lumens: "1,275 lm", dims: "Ø85×80 mm", code: "STR-203-80-15" },
+        ]
       },
 
       // ── BRILLIO ──
@@ -245,17 +238,16 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Brillio", url: "/datasheets/indoor/Stellmore Italia Brillio.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH",
           material: "Die Cast Aluminium",
-          dimming: "0/1–10V · DALI",
+          dimming: "0/1–10V · DALI"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø45×50 mm", code: "STR-204-01A-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø60×68 mm", code: "STR-204-01A-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø74×76 mm", code: "STR-204-01A-18", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø45×50 mm", code: "STR-204-01A-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø60×68 mm", code: "STR-204-01A-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø74×76 mm", code: "STR-204-01A-18" },
+        ]
       },
 
       // ── BRILLIO-D ──
@@ -271,17 +263,44 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Brillio-D", url: "/datasheets/indoor/Stellmore Italia Brillio-D.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH",
           material: "Die Cast Aluminium",
-          dimming: "0/1–10V · DALI",
+          dimming: "0/1–10V · DALI"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø45×50 mm", code: "STR-204-01B-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø60×68 mm", code: "STR-204-01B-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø74×76 mm", code: "STR-204-01B-18", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø45×50 mm", code: "STR-204-01B-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø60×68 mm", code: "STR-204-01B-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø74×76 mm", code: "STR-204-01B-18" },
+        ]
+      },
+
+      // ── BRILLARE ──
+      {
+        id: "brillare",
+        name: "BRILLARE",
+        desc: "Flat-profile recessed LED downlight with ultra-wide beam angle and smooth opal diffuser for glare-free ambient illumination — ideal for general lighting in residential and commercial ceilings.",
+        img: "/images/indoor_new/Stellmore_Italia_Brillare.jpg",
+        datasheet: {
+          cri: "90", cct: "2700K / 3000K / 4000K",
+          beam: "120°", ip: "IP40",
+          voltage: "AC 220–240V 50/60Hz",
+          lifespan: "50,000 hrs", warranty: "5 Years",
+          certifications: ["CE", "RoHS"],
+          downloads: [{ name: "Stellmore Italia Brillare", url: "/datasheets/indoor/Stellmore Italia Brillare.pdf", size: "PDF" }],
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
+          led_chip: "OSRAM", finish: "WH",
+          material: "Die Cast Aluminium",
+          dimming: "Triac · 0/1–10V · DALI",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
+        },
+        variants: [
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø87×44.5 mm", code: "STR-204-11-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø112×48 mm",  code: "STR-204-11-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø138×48 mm",  code: "STR-204-11-18" },
+          { wattage: "24W", lumens: "2,040 lm", dims: "Ø162×51 mm",  code: "STR-204-11-24" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø215×56 mm",  code: "STR-204-11-30" },
+        ]
       },
 
       // ── CAVERO ──
@@ -297,15 +316,14 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Cavero", url: "/datasheets/indoor/Stellmore Italia Cavero.pdf", size: "PDF" }],
-          efficiency: "97 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "97 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "BK",
           material: "Die Cast Aluminium",
-          dimming: "0/1–10V · DALI",
+          dimming: "0/1–10V · DALI"
         },
         variants: [
-          { wattage: "7W", lumens: "679 lm", dims: "Ø100×70 mm", code: "STR-203-68-7", tag: null },
-        ],
+          { wattage: "7W", lumens: "679 lm", dims: "Ø100×70 mm", code: "STR-203-68-7" },
+        ]
       },
 
       // ── CIELO ──
@@ -321,16 +339,15 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Cielo", url: "/datasheets/indoor/Stellmore Italia Cielo.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH",
           material: "Die Cast Aluminium",
-          dimming: "0/1–10V · DALI",
+          dimming: "0/1–10V · DALI"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø66×62 mm", code: "STR-203-61-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø87×90 mm", code: "STR-203-61-12", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø66×62 mm", code: "STR-203-61-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø87×90 mm", code: "STR-203-61-12" },
+        ]
       },
 
       // ── ELIO R ──
@@ -346,16 +363,15 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Elio R", url: "/datasheets/indoor/Stellmore Italia Elio R.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Die Cast Aluminium · Aluminium Reflector · PMMA Opal PC Lens",
-          dimming: "0/1–10V · DALI",
+          dimming: "0/1–10V · DALI"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø70×77 mm",  code: "STR-201-38-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø93×100 mm", code: "STR-201-38-12", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø70×77 mm",  code: "STR-201-38-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø93×100 mm", code: "STR-201-38-12" },
+        ]
       },
 
       // ── ELIO ──
@@ -371,17 +387,16 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Elio", url: "/datasheets/indoor/Stellmore Italia Elio.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Die Cast Aluminium · Aluminium Reflector · PMMA Opal PC Lens",
-          dimming: "0/1–10V · DALI",
+          dimming: "0/1–10V · DALI"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø63×53 mm", code: "STR-203-30-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø80×68 mm", code: "STR-203-30-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø98×75 mm", code: "STR-203-30-18", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø63×53 mm", code: "STR-203-30-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø80×68 mm", code: "STR-203-30-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø98×75 mm", code: "STR-203-30-18" },
+        ]
       },
 
       // ── ELLY ──
@@ -397,19 +412,18 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia elly", url: "/datasheets/indoor/Stellmore Italia elly.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH",
           material: "Die Cast Aluminium",
-          dimming: "0/1–10V · DALI",
+          dimming: "0/1–10V · DALI"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø75×100 mm",  code: "STR-202-09-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø75×100 mm",  code: "STR-202-09-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø90×135 mm",  code: "STR-202-09-18", tag: null },
-          { wattage: "24W", lumens: "2,040 lm", dims: "Ø100×150 mm", code: "STR-202-09-24", tag: null },
-          { wattage: "36W", lumens: "3,060 lm", dims: "Ø100×150 mm", code: "STR-202-09-36", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø75×100 mm",  code: "STR-202-09-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø75×100 mm",  code: "STR-202-09-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø90×135 mm",  code: "STR-202-09-18" },
+          { wattage: "24W", lumens: "2,040 lm", dims: "Ø100×150 mm", code: "STR-202-09-24" },
+          { wattage: "36W", lumens: "3,060 lm", dims: "Ø100×150 mm", code: "STR-202-09-36" },
+        ]
       },
 
       // ── FARO ──
@@ -425,19 +439,18 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia faro", url: "/datasheets/indoor/Stellmore Italia faro.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH",
           material: "Die Cast Aluminium",
-          dimming: "Triac · 0/1–10V · DALI",
+          dimming: "Triac · 0/1–10V · DALI"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø90×35 mm",  code: "STR-204-03-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø125×35 mm", code: "STR-204-02-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø150×35 mm", code: "STR-204-03-18", tag: null },
-          { wattage: "24W", lumens: "2,040 lm", dims: "Ø175×35 mm", code: "STR-204-03-24", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "Ø230×35 mm", code: "STR-204-03-30", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø90×35 mm",  code: "STR-204-03-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø125×35 mm", code: "STR-204-02-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø150×35 mm", code: "STR-204-03-18" },
+          { wattage: "24W", lumens: "2,040 lm", dims: "Ø175×35 mm", code: "STR-204-03-24" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø230×35 mm", code: "STR-204-03-30" },
+        ]
       },
 
       // ── FIAMMA ──
@@ -453,19 +466,18 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Fiamma", url: "/datasheets/indoor/Stellmore Italia Fiamma.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH",
           material: "Die Cast Aluminium",
-          dimming: "0/1–10V · DALI",
+          dimming: "0/1–10V · DALI"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø53×65 mm",   code: "STR-204-10-7",   tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø68×81 mm",   code: "STR-204-10-12",  tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø80×90 mm",   code: "STR-204-10--18", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "Ø100×112 mm", code: "STR-204-10-30",  tag: null },
-          { wattage: "50W", lumens: "4,250 lm", dims: "Ø135×134 mm", code: "STR-204-10-50",  tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø53×65 mm",   code: "STR-204-10-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø68×81 mm",   code: "STR-204-10-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø80×90 mm",   code: "STR-204-10--18" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø100×112 mm", code: "STR-204-10-30" },
+          { wattage: "50W", lumens: "4,250 lm", dims: "Ø135×134 mm", code: "STR-204-10-50" },
+        ]
       },
 
       // ── FIAMMA-D ──
@@ -481,173 +493,18 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Fiamma -d", url: "/datasheets/indoor/Stellmore Italia Fiamma -d.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "BK",
           material: "Die Cast Aluminium",
-          dimming: "0/1–10V · DALI",
+          dimming: "0/1–10V · DALI"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø53×65 mm",   code: "STR-204-10B-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø68×81 mm",   code: "STR-204-10B-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø80×90 mm",   code: "STR-204-10B-18", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "Ø100×112 mm", code: "STR-204-10B-30", tag: null },
-          { wattage: "50W", lumens: "4,250 lm", dims: "Ø135×134 mm", code: "STR-204-10B-50", tag: null },
-        ],
-      },
-
-      // ── BLANCHA ──
-      {
-        id: "blancha",
-        name: "BLANCHA",
-        desc: "Surface-mounted spotlight, minimalist cylindrical design, integrated anti-glare.",
-        img: "/images/indoor_new/Stellmore_Italia_Blancha.jpg",
-        datasheet: {
-          cri: "90", cct: "2700K / 3000K / 4000K",
-          beam: "38° / 40° / 60°", ip: "IP40",
-          voltage: "AC 220–240V 50/60Hz",
-          lifespan: "50,000 hrs", warranty: "5 Years",
-          certifications: ["CE", "RoHS"],
-          downloads: [{ name: "Stellmore Italia Blancha", url: "/datasheets/indoor/Stellmore Italia Blancha.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "Yes", operating_temp: "-20° to 60°",
-          led_chip: "OSRAM", finish: "WH",
-          material: "Die Cast Aluminium",
-          dimming: "0/1–10V · DALI",
-        },
-        variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø60×60 mm",  code: "STR-203-76-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø70×80 mm",  code: "STR-203-76-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø90×100 mm", code: "STR-203-76-18", tag: null },
-        ],
-      },
-
-      // ── BLANCHA B ──
-      {
-        id: "blancha-b",
-        name: "BLANCHA B",
-        desc: "Rimless surface-mounted spotlight, deep cup anti-glare design, matte black.",
-        img: "/images/indoor_new/Stellmore_Italia_Blancha_B.jpg",
-        datasheet: {
-          cri: "90", cct: "2700K / 3000K / 4000K",
-          beam: "30° / 40°", ip: "IP40",
-          voltage: "AC 220–240V 50/60Hz",
-          lifespan: "50,000 hrs", warranty: "5 Years",
-          certifications: ["CE", "RoHS"],
-          downloads: [{ name: "Stellmore Italia Blancha B", url: "/datasheets/indoor/Stellmore Italia Blancha B.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "Yes", operating_temp: "-20° to 60°",
-          led_chip: "OSRAM", finish: "BK",
-          material: "Die Cast Aluminium",
-          dimming: "Triac · 0/1–10V · DALI",
-        },
-        variants: [
-          { wattage: "9W",  lumens: "765 lm",   dims: "Ø110×90 mm", code: "STR-203-78-9",  tag: null },
-          { wattage: "15W", lumens: "1,275 lm", dims: "Ø150×90 mm", code: "STR-203-78-15", tag: null },
-        ],
-      },
-
-      // ── CIRO ──
-      {
-        id: "ciro",
-        name: "CIRO",
-        desc: "Rimless cylindrical surface spotlight, deep cup anti-glare optic, 360° adjustable.",
-        img: "/images/indoor_new/Stellmore_Italia_Ciro.jpg",
-        datasheet: {
-          cri: "90", cct: "2700K / 3000K / 4000K",
-          beam: "Wide diffused", ip: "IP40",
-          voltage: "AC 220–240V 50/60Hz",
-          lifespan: "50,000 hrs", warranty: "5 Years",
-          certifications: ["CE", "RoHS"],
-          downloads: [{ name: "Stellmore Italia Ciro", url: "/datasheets/indoor/Stellmore Italia Ciro.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "Yes", operating_temp: "-20° to 60°",
-          led_chip: "OSRAM", finish: "BK",
-          material: "Die Cast Aluminium",
-          dimming: "Triac · 0/1–10V · DALI",
-        },
-        variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø75×70 mm",   code: "STR-203-79-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø109×75 mm",  code: "STR-203-79-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø151×85 mm",  code: "STR-203-79-18", tag: null },
-        ],
-      },
-
-      // ── ELLENA-S ──
-      {
-        id: "ellena-s",
-        name: "ELLENA-S",
-        desc: "360° adjustable surface-mounted spotlight, COB LED, faceted reflector.",
-        img: "/images/indoor_new/Stellmore_Italia_ellena_s.jpg",
-        datasheet: {
-          cri: "90", cct: "2700K / 3000K / 4000K",
-          beam: "60°", ip: "IP40",
-          voltage: "AC 220–240V 50/60Hz",
-          lifespan: "50,000 hrs", warranty: "5 Years",
-          certifications: ["CE", "RoHS"],
-          downloads: [{ name: "Stellmore Italia ellena s", url: "/datasheets/indoor/Stellmore Italia ellena s.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "Yes (360°)", operating_temp: "-20° to 60°",
-          led_chip: "OSRAM", finish: "WH",
-          material: "Die Cast Aluminium",
-          dimming: "0/1–10V · DALI",
-        },
-        variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø70×77 mm",  code: "STR-203-55S-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø85×85 mm",  code: "STR-203-55S-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø100×97 mm", code: "STR-203-55S-18", tag: null },
-        ],
-      },
-
-      // ── ELLENA ──
-      {
-        id: "ellena",
-        name: "ELLENA",
-        desc: "360° adjustable surface-mounted spotlight, gold anodized aluminium body, private mould.",
-        img: "/images/indoor_new/Stellmore_Italia_Ellena.jpg",
-        datasheet: {
-          cri: "90", cct: "2700K / 3000K / 4000K",
-          beam: "60°", ip: "IP40",
-          voltage: "AC 220–240V 50/60Hz",
-          lifespan: "50,000 hrs", warranty: "5 Years",
-          certifications: ["CE", "RoHS"],
-          downloads: [{ name: "Stellmore Italia Ellena", url: "/datasheets/indoor/Stellmore Italia Ellena.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "Yes (360°)", operating_temp: "-20° to 60°",
-          led_chip: "OSRAM", finish: "GOLD",
-          material: "Die Cast Aluminium",
-          dimming: "0/1–10V · DALI",
-        },
-        variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø70×77 mm",  code: "STR-203-55-7",  tag: "LUXURY" },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø85×85 mm",  code: "STR-203-55-12", tag: "LUXURY" },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø100×97 mm", code: "STR-203-55-18", tag: "LUXURY" },
-        ],
-      },
-
-      // ── FILO ──
-      {
-        id: "filo",
-        name: "FILO",
-        desc: "Surface-exposed spotlight, deep tube anti-glare, 360° adjustable head.",
-        img: "/images/indoor_new/Stellmore_Italia_Filo.jpg",
-        datasheet: {
-          cri: "90", cct: "2700K / 3000K / 4000K",
-          beam: "40° / 50°", ip: "IP40",
-          voltage: "AC 220–240V 50/60Hz",
-          lifespan: "50,000 hrs", warranty: "5 Years",
-          certifications: ["CE", "RoHS"],
-          downloads: [{ name: "Stellmore Italia Filo", url: "/datasheets/indoor/Stellmore Italia Filo.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "Yes (360°)", operating_temp: "-20° to 60°",
-          led_chip: "OSRAM", finish: "WH",
-          material: "Die Cast Aluminium",
-          dimming: "Triac · 0/1–10V · DALI",
-        },
-        variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø33×110 mm", code: "STR-203-07T-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø40×135 mm", code: "STR-203-07T-12", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø53×65 mm",   code: "STR-204-10B-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø68×81 mm",   code: "STR-204-10B-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø80×90 mm",   code: "STR-204-10B-18" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø100×112 mm", code: "STR-204-10B-30" },
+          { wattage: "50W", lumens: "4,250 lm", dims: "Ø135×134 mm", code: "STR-204-10B-50" },
+        ]
       },
 
       // ── FIORA ──
@@ -663,16 +520,15 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Fiora", url: "/datasheets/indoor/Stellmore Italia Fiora.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "BK",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "7W", lumens: "595 lm", dims: "Ø60×54 mm", code: "STR-203-38-7", tag: null },
-        ],
+          { wattage: "7W", lumens: "595 lm", dims: "Ø60×54 mm", code: "STR-203-38-7" },
+        ]
       },
 
       // ── GIADA ──
@@ -682,8 +538,7 @@ export const INDOOR_CATEGORIES = [
         desc: "High-performance LED recessed downlight with round design, diffused lens for uniform light distribution, and integrated aluminum heat sink for optimal thermal management.",
         img: "/images/indoor_new/Stellmore_Italia_Giada.jpg",
         datasheet: {
-          cri: "90", cct: "2700K / 3000K / 4000K",
-          beam: "—", ip: "IP40",
+          cri: "90", cct: "2700K / 3000K / 4000K", ip: "IP40",
           voltage: "AC 220–240V 50/60Hz",
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
@@ -693,13 +548,13 @@ export const INDOOR_CATEGORIES = [
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø75×100 mm", code: "STR-202-09A-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø75×100 mm", code: "STR-202-09A-18", tag: null },
-          { wattage: "24W", lumens: "2,040 lm", dims: "Ø90×135 mm", code: "STR-202-09A-24", tag: null },
-        ],
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø75×100 mm", code: "STR-202-09A-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø75×100 mm", code: "STR-202-09A-18" },
+          { wattage: "24W", lumens: "2,040 lm", dims: "Ø90×135 mm", code: "STR-202-09A-24" },
+        ]
       },
 
       // ── JOE A ──
@@ -720,13 +575,13 @@ export const INDOOR_CATEGORIES = [
           led_chip: "OSRAM", finish: "WH",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "12W", lumens: "1,020 lm", dims: "87×87×61 mm",  code: "STR-102-86-12", tag: null },
-          { wattage: "24W", lumens: "2,040 lm", dims: "156×87×67 mm", code: "STR-102-86-24", tag: null },
-          { wattage: "36W", lumens: "3,060 lm", dims: "227×87×67 mm", code: "STR-102-86-36", tag: null },
-        ],
+          { wattage: "12W", lumens: "1,020 lm", dims: "87×87×61 mm",  code: "STR-102-86-12" },
+          { wattage: "24W", lumens: "2,040 lm", dims: "156×87×67 mm", code: "STR-102-86-24" },
+          { wattage: "36W", lumens: "3,060 lm", dims: "227×87×67 mm", code: "STR-102-86-36" },
+        ]
       },
 
       // ── JOE B ──
@@ -742,19 +597,18 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Joe B", url: "/datasheets/indoor/Stellmore Italia Joe B.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "BK",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "6W",  lumens: "510 lm",   dims: "65×65×45 mm",   code: "STR-102-93-6",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "115×65×45 mm",  code: "STR-102-93-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "165×65×45 mm",  code: "STR-102-93-18", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "249×W63×50 mm", code: "STR-102-93-30", tag: null },
-        ],
+          { wattage: "6W",  lumens: "510 lm",   dims: "65×65×45 mm",   code: "STR-102-93-6" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "115×65×45 mm",  code: "STR-102-93-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "165×65×45 mm",  code: "STR-102-93-18" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "249×W63×50 mm", code: "STR-102-93-30" },
+        ]
       },
 
       // ── LAMPADA ──
@@ -764,8 +618,7 @@ export const INDOOR_CATEGORIES = [
         desc: "Slim recessed downlight with high-efficiency LED module and diffused lens providing soft, glare-free light output for various indoor spaces.",
         img: "/images/indoor_new/Stellmore_Italia_Lampada.jpg",
         datasheet: {
-          cri: "90", cct: "2700K / 3000K / 4000K",
-          beam: "—", ip: "IP40",
+          cri: "90", cct: "2700K / 3000K / 4000K", ip: "IP40",
           voltage: "AC 220–240V 50/60Hz",
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
@@ -775,15 +628,15 @@ export const INDOOR_CATEGORIES = [
           led_chip: "OSRAM", finish: "WH",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø87×44.5 mm", code: "STR-204-02-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø112×48 mm",  code: "STR-204-02-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø138×48 mm",  code: "STR-204-02-18", tag: null },
-          { wattage: "24W", lumens: "2,040 lm", dims: "Ø162×51 mm",  code: "STR-204-02-24", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "Ø215×56 mm",  code: "STR-204-02-30", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø87×44.5 mm", code: "STR-204-02-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø112×48 mm",  code: "STR-204-02-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø138×48 mm",  code: "STR-204-02-18" },
+          { wattage: "24W", lumens: "2,040 lm", dims: "Ø162×51 mm",  code: "STR-204-02-24" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø215×56 mm",  code: "STR-204-02-30" },
+        ]
       },
 
       // ── LUCENTIO ──
@@ -799,18 +652,17 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Lucentio", url: "/datasheets/indoor/Stellmore Italia Lucentio.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "BK",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø70×55 mm", code: "STR-203-63-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø85×63 mm", code: "STR-203-63-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø99×91 mm", code: "STR-203-63-18", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø70×55 mm", code: "STR-203-63-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø85×63 mm", code: "STR-203-63-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø99×91 mm", code: "STR-203-63-18" },
+        ]
       },
 
       // ── LUCERIA ──
@@ -826,16 +678,15 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Luceria", url: "/datasheets/indoor/Stellmore Italia Luceria.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "BK",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø73×67 mm", code: "STR-203-13-12", tag: null },
-        ],
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø73×67 mm", code: "STR-203-13-12" },
+        ]
       },
 
       // ── LUMIRA ──
@@ -851,45 +702,17 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Lumira", url: "/datasheets/indoor/Stellmore Italia Lumira.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø45×64 mm",  code: "STR-204-04-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø60×90 mm",  code: "STR-204-04-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø74×112 mm", code: "STR-204-04-18", tag: null },
-        ],
-      },
-
-      // ── NELLO ──
-      {
-        id: "nello",
-        name: "NELLO",
-        desc: "Modern 360° adjustable recessed spotlight with slim cylindrical body, high-efficiency COB LED, and black anti-glare inner reflector for precision lighting control with minimal form factor.",
-        img: "/images/indoor_new/Stellmore_Italia_Nello.jpg",
-        datasheet: {
-          cri: "90", cct: "2700K / 3000K / 4000K",
-          beam: "40°", ip: "IP40",
-          voltage: "AC 220–240V 50/60Hz",
-          lifespan: "50,000 hrs", warranty: "5 Years",
-          certifications: ["CE", "RoHS"],
-          downloads: [{ name: "Stellmore Italia Nello", url: "/datasheets/indoor/Stellmore Italia Nello.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "Yes (360°)", operating_temp: "-20° to 60°",
-          led_chip: "OSRAM", finish: "WH",
-          material: "Die Cast Aluminium",
-          dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
-        },
-        variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø44×65 mm",  code: "STR-203-54-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø44×95 mm",  code: "STR-202-54-12", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "Ø88×190 mm", code: "STR-202-54-30", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø45×64 mm",  code: "STR-204-04-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø60×90 mm",  code: "STR-204-04-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø74×112 mm", code: "STR-204-04-18" },
+        ]
       },
 
       // ── RINO A ──
@@ -899,22 +722,20 @@ export const INDOOR_CATEGORIES = [
         desc: "Single-head recessed spotlight with deep cylindrical design concealing the light source for maximum glare control, minimalist white housing, and black inner baffle.",
         img: "/images/indoor_new/Stellmore_Italia_Rino_A.jpg",
         datasheet: {
-          cri: "90", cct: "2700K / 3000K / 4000K",
-          beam: "—", ip: "IP40",
+          cri: "90", cct: "2700K / 3000K / 4000K", ip: "IP40",
           voltage: "AC 220–240V 50/60Hz",
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Rino-A", url: "/datasheets/indoor/Stellmore Italia Rino-A.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø90×102 mm", code: "STR-202-82A-12", tag: null },
-        ],
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø90×102 mm", code: "STR-202-82A-12" },
+        ]
       },
 
       // ── RINO B ──
@@ -924,22 +745,20 @@ export const INDOOR_CATEGORIES = [
         desc: "Dual-head recessed spotlight in double-barrel configuration allowing dual beam targeting — ideal for asymmetric lighting, wall washing, or product highlighting.",
         img: "/images/indoor_new/Stellmore_Italia_Rino_B.jpg",
         datasheet: {
-          cri: "90", cct: "2700K / 3000K / 4000K",
-          beam: "—", ip: "IP40",
+          cri: "90", cct: "2700K / 3000K / 4000K", ip: "IP40",
           voltage: "AC 220–240V 50/60Hz",
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Rino-B", url: "/datasheets/indoor/Stellmore Italia Rino-B.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "24W", lumens: "2,040 lm", dims: "175×90×102 mm", code: "STR-202-82B-24", tag: null },
-        ],
+          { wattage: "24W", lumens: "2,040 lm", dims: "175×90×102 mm", code: "STR-202-82B-24" },
+        ]
       },
 
       // ── SERENA ──
@@ -955,18 +774,17 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Serena", url: "/datasheets/indoor/Stellmore Italia Serena.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Die Cast Aluminium · Aluminium Reflector · PMMA Opal PC Lens",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø60×69 mm",  code: "STR-202-43-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø85×78 mm",  code: "STR-202-43-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø100×98 mm", code: "STR-202-43-18", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø60×69 mm",  code: "STR-202-43-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø85×78 mm",  code: "STR-202-43-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø100×98 mm", code: "STR-202-43-18" },
+        ]
       },
 
       // ── SOLELUCE ──
@@ -982,18 +800,17 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Soleluce", url: "/datasheets/indoor/Stellmore Italia Soleluce.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø70×53.5 mm", code: "STR-202-67A-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø92×75 mm",   code: "STR-202-67A-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø110×76 mm",  code: "STR-202-67A-18", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø70×53.5 mm", code: "STR-202-67A-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø92×75 mm",   code: "STR-202-67A-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø110×76 mm",  code: "STR-202-67A-18" },
+        ]
       },
 
       // ── VENELUCE ──
@@ -1009,19 +826,18 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Veneluce", url: "/datasheets/indoor/Stellmore Italia Veneluce.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø68×58 mm",  code: "STR-204-38-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø84×64 mm",  code: "STR-204-38-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø95×70 mm",  code: "STR-204-38-18", tag: null },
-          { wattage: "24W", lumens: "2,040 lm", dims: "Ø135×82 mm", code: "STR-204-38-24", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø68×58 mm",  code: "STR-204-38-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø84×64 mm",  code: "STR-204-38-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø95×70 mm",  code: "STR-204-38-18" },
+          { wattage: "24W", lumens: "2,040 lm", dims: "Ø135×82 mm", code: "STR-204-38-24" },
+        ]
       },
 
       // ── ZAIN ──
@@ -1037,19 +853,18 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Zain", url: "/datasheets/indoor/Stellmore Italia Zain.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø63×56 mm",  code: "STR-202-86-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø87×72 mm",  code: "STR-202-86-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø115×87 mm", code: "STR-202-86-18", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "Ø136×98 mm", code: "STR-202-86-30", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø63×56 mm",  code: "STR-202-86-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø87×72 mm",  code: "STR-202-86-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø115×87 mm", code: "STR-202-86-18" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø136×98 mm", code: "STR-202-86-30" },
+        ]
       },
 
       // ── ZOHAR ──
@@ -1059,8 +874,7 @@ export const INDOOR_CATEGORIES = [
         desc: "High-efficiency LED recessed downlight with sleek round design and durable aluminum heat sink for optimal thermal performance — ideal for residential, commercial, and hospitality applications.",
         img: "/images/indoor_new/Stellmore_Italia_Zohar.jpg",
         datasheet: {
-          cri: "90", cct: "2700K / 3000K / 4000K",
-          beam: "—", ip: "IP40",
+          cri: "90", cct: "2700K / 3000K / 4000K", ip: "IP40",
           voltage: "AC 220–240V 50/60Hz",
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
@@ -1070,13 +884,13 @@ export const INDOOR_CATEGORIES = [
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø75×100 mm", code: "STR-203-49-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø75×100 mm", code: "STR-203-49-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø90×135 mm", code: "STR-203-49-18", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø75×100 mm", code: "STR-203-49-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø75×100 mm", code: "STR-203-49-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø90×135 mm", code: "STR-203-49-18" },
+        ]
       },
 
       // ── BRIANO (Grille) ──
@@ -1092,16 +906,15 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia-BRIANO-1212S-GN", url: "/datasheets/indoor/Stellmore Italia-BRIANO-1212S-GN.pdf", size: "PDF" }],
-          efficiency: "100 lm/W", power_factor: "0.5",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "100 lm/W", power_factor: "0.5", operating_temp: "-20° to 60°",
           led_chip: "BRIDGELUX", finish: "WH / BK",
           material: "Die Cast Aluminium · Mirror Finished Aluminium Reflector · PMMA Opal PC Lens",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "12W", lumens: "1,200 lm", dims: "85×85×H62 mm", code: "SLM-1212S-GN", tag: null },
-        ],
+          { wattage: "12W", lumens: "1,200 lm", dims: "85×85×H62 mm", code: "SLM-1212S-GN" },
+        ]
       },
 
       // ── BRIANO-D (Grille) ──
@@ -1117,16 +930,15 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia-BRIANO-D-2412S-GN", url: "/datasheets/indoor/Stellmore Italia-BRIANO-D-2412S-GN.pdf", size: "PDF" }],
-          efficiency: "100 lm/W", power_factor: "0.5",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "100 lm/W", power_factor: "0.5", operating_temp: "-20° to 60°",
           led_chip: "BRIDGELUX", finish: "WH / BK",
           material: "Die Cast Aluminium · Mirror Finished Aluminium Reflector · PMMA Opal PC Lens",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "2×12W", lumens: "2,400 lm", dims: "167×85×H62 mm", code: "SLM-2412S-GN", tag: null },
-        ],
+          { wattage: "2×12W", lumens: "2,400 lm", dims: "167×85×H62 mm", code: "SLM-2412S-GN" },
+        ]
       },
 
       // ── BRIANO-T (Grille) ──
@@ -1142,16 +954,15 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia-BRIANO-T-127S-GN", url: "/datasheets/indoor/Stellmore Italia-BRIANO-T-127S-GN.pdf", size: "PDF" }],
-          efficiency: "100 lm/W", power_factor: "0.5",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "100 lm/W", power_factor: "0.5", operating_temp: "-20° to 60°",
           led_chip: "BRIDGELUX", finish: "WH / BK",
           material: "Die Cast Aluminium · Mirror Finished Aluminium Reflector · PMMA Opal PC Lens",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "3×7W", lumens: "2,100 lm", dims: "187×65×H52 mm", code: "SLM-127S-GN", tag: null },
-        ],
+          { wattage: "3×7W", lumens: "2,100 lm", dims: "187×65×H52 mm", code: "SLM-127S-GN" },
+        ]
       },
 
       // ── BRIO (Square Spot) ──
@@ -1172,11 +983,11 @@ export const INDOOR_CATEGORIES = [
           led_chip: "BRIDGELUX", finish: "WH / BK / Bright Silver",
           material: "Die Cast Aluminium · Mirror Finished Aluminium Reflector · PMMA Opal PC Lens",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "10W", lumens: "900 lm", dims: "100×H95 mm", code: "SLM-C9074", tag: null },
-        ],
+          { wattage: "10W", lumens: "900 lm", dims: "100×H95 mm", code: "SLM-C9074" },
+        ]
       },
 
       // ── BRIO-D (Square Spot) ──
@@ -1197,11 +1008,11 @@ export const INDOOR_CATEGORIES = [
           led_chip: "BRIDGELUX", finish: "WH / BK / Bright Silver",
           material: "Die Cast Aluminium · Mirror Finished Aluminium Reflector · PMMA Opal PC Lens",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "2×10W", lumens: "1,800 lm", dims: "200×110×H95 mm", code: "SLM-C1022", tag: null },
-        ],
+          { wattage: "2×10W", lumens: "1,800 lm", dims: "200×110×H95 mm", code: "SLM-C1022" },
+        ]
       },
 
       // ── BRIO-T (Square Spot) ──
@@ -1222,11 +1033,11 @@ export const INDOOR_CATEGORIES = [
           led_chip: "BRIDGELUX", finish: "WH / BK / Bright Silver",
           material: "Die Cast Aluminium · Mirror Finished Aluminium Reflector · PMMA Opal PC Lens",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "3×10W", lumens: "2,700 lm", dims: "285×110×H85 mm", code: "SLM-C10223", tag: null },
-        ],
+          { wattage: "3×10W", lumens: "2,700 lm", dims: "285×110×H85 mm", code: "SLM-C10223" },
+        ]
       },
 
       // ── CHIARA (COB Downlight) ──
@@ -1242,20 +1053,19 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia-CHIARA Family", url: "/datasheets/indoor/Stellmore Italia-CHIARA Family.pdf", size: "PDF" }],
-          efficiency: "110 lm/W", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "110 lm/W", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "BRIDGELUX", finish: "WH / BK",
           material: "Die Cast Aluminium · Aluminium Reflector · PMMA Opal PC Lens",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "10W", lumens: "1,100 lm", dims: "Ø86×H55 mm",   code: "SLM-1010JG", tag: null },
-          { wattage: "20W", lumens: "2,200 lm", dims: "Ø101×H61 mm",  code: "SLM-1020JG", tag: null },
-          { wattage: "30W", lumens: "3,300 lm", dims: "Ø140×H73 mm",  code: "SLM-1030JG", tag: null },
-          { wattage: "40W", lumens: "4,400 lm", dims: "Ø180×H94 mm",  code: "SLM-1040JG", tag: null },
-          { wattage: "50W", lumens: "5,500 lm", dims: "Ø212×H110 mm", code: "SLM-1050JG", tag: null },
-        ],
+          { wattage: "10W", lumens: "1,100 lm", dims: "Ø86×H55 mm",   code: "SLM-1010JG" },
+          { wattage: "20W", lumens: "2,200 lm", dims: "Ø101×H61 mm",  code: "SLM-1020JG" },
+          { wattage: "30W", lumens: "3,300 lm", dims: "Ø140×H73 mm",  code: "SLM-1030JG" },
+          { wattage: "40W", lumens: "4,400 lm", dims: "Ø180×H94 mm",  code: "SLM-1040JG" },
+          { wattage: "50W", lumens: "5,500 lm", dims: "Ø212×H110 mm", code: "SLM-1050JG" },
+        ]
       },
 
       // ── COMO (Adjustable Square) ──
@@ -1276,13 +1086,13 @@ export const INDOOR_CATEGORIES = [
           led_chip: "CREE", finish: "WH / BK",
           material: "Die Cast Aluminium · Mirror Finished Aluminium Reflector · PMMA Opal PC Lens",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "20W", lumens: "1,800 lm", dims: "105×105×H115 mm", code: "SLM-10051-LM", tag: null },
-          { wattage: "30W", lumens: "2,700 lm", dims: "120×120×H130 mm", code: "SLM-12051-LM", tag: null },
-          { wattage: "35W", lumens: "3,150 lm", dims: "120×120×H130 mm", code: "SLM-15051-LM", tag: null },
-        ],
+          { wattage: "20W", lumens: "1,800 lm", dims: "105×105×H115 mm", code: "SLM-10051-LM" },
+          { wattage: "30W", lumens: "2,700 lm", dims: "120×120×H130 mm", code: "SLM-12051-LM" },
+          { wattage: "35W", lumens: "3,150 lm", dims: "120×120×H130 mm", code: "SLM-15051-LM" },
+        ]
       },
 
       // ── COMO-D (Adjustable Square) ──
@@ -1303,12 +1113,12 @@ export const INDOOR_CATEGORIES = [
           led_chip: "CREE", finish: "WH / BK",
           material: "Die Cast Aluminium · Mirror Finished Aluminium Reflector · PMMA Opal PC Lens",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "2×20W", lumens: "3,600 lm", dims: "220×105×H115 mm", code: "SLM-1005-LM", tag: null },
-          { wattage: "2×30W", lumens: "5,400 lm", dims: "250×120×H130 mm", code: "SLM-1205-LM", tag: null },
-        ],
+          { wattage: "2×20W", lumens: "3,600 lm", dims: "220×105×H115 mm", code: "SLM-1005-LM" },
+          { wattage: "2×30W", lumens: "5,400 lm", dims: "250×120×H130 mm", code: "SLM-1205-LM" },
+        ]
       },
 
       // ── LAGO (IP54 Adjustable) ──
@@ -1329,13 +1139,13 @@ export const INDOOR_CATEGORIES = [
           led_chip: "BRIDGELUX", finish: "WH / BK",
           material: "Die Cast Aluminium · Mirror Finished Aluminium Reflector · PMMA Opal PC Lens",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "5W",  lumens: "450 lm",  dims: "Ø84×H52 mm",  code: "SLM-1212YT", tag: null },
-          { wattage: "18W", lumens: "1,620 lm", dims: "Ø100×H60 mm", code: "SLM-1218YT", tag: null },
-          { wattage: "24W", lumens: "2,160 lm", dims: "Ø126×H70 mm", code: "SLM-1224YT", tag: null },
-        ],
+          { wattage: "5W",  lumens: "450 lm",  dims: "Ø84×H52 mm",  code: "SLM-1212YT" },
+          { wattage: "18W", lumens: "1,620 lm", dims: "Ø100×H60 mm", code: "SLM-1218YT" },
+          { wattage: "24W", lumens: "2,160 lm", dims: "Ø126×H70 mm", code: "SLM-1224YT" },
+        ]
       },
 
       // ── LUSTRO (Mini COB) ──
@@ -1351,16 +1161,15 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia-LUSTRO-SLM-CL05", url: "/datasheets/indoor/Stellmore Italia-LUSTRO-SLM-CL05.pdf", size: "PDF" }],
-          efficiency: "90 lm/W", power_factor: "0.5",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "90 lm/W", power_factor: "0.5", operating_temp: "-20° to 60°",
           led_chip: "BRIDGELUX", finish: "WH / BK / GD / SBK",
           material: "Die Cast Aluminium · Mirror Finished Aluminium Reflector · PMMA Opal PC Lens",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "5W", lumens: "450 lm", dims: "45×H60 mm", code: "SLM-CL05", tag: null },
-        ],
+          { wattage: "5W", lumens: "450 lm", dims: "45×H60 mm", code: "SLM-CL05" },
+        ]
       },
 
       // ── RAGGIO (IP65 Waterproof) ──
@@ -1376,21 +1185,20 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia-RAGGIO", url: "/datasheets/indoor/Stellmore Italia-RAGGIO.pdf", size: "PDF" }],
-          efficiency: "80 lm/W", power_factor: "0.5",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "80 lm/W", power_factor: "0.5", operating_temp: "-20° to 60°",
           led_chip: "BRIDGELUX", finish: "WH",
           material: "Die Cast Aluminium · Mirror Finished Aluminium Reflector · PMMA Opal PC Lens",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "12W", lumens: "960 lm",   dims: "Ø82×H45 mm",  code: "SLM-1212-GZ", tag: null },
-          { wattage: "18W", lumens: "1,440 lm", dims: "Ø105×H52 mm", code: "SLM-1218-GZ", tag: null },
-          { wattage: "24W", lumens: "1,920 lm", dims: "Ø129×H70 mm", code: "SLM-1224-GZ", tag: null },
-        ],
+          { wattage: "12W", lumens: "960 lm",   dims: "Ø82×H45 mm",  code: "SLM-1212-GZ" },
+          { wattage: "18W", lumens: "1,440 lm", dims: "Ø105×H52 mm", code: "SLM-1218-GZ" },
+          { wattage: "24W", lumens: "1,920 lm", dims: "Ø129×H70 mm", code: "SLM-1224-GZ" },
+        ]
       },
 
-    ],
+    ]
   },
 
   // ─────────────────────────────────────────────
@@ -1400,7 +1208,7 @@ export const INDOOR_CATEGORIES = [
     id: "surface",
     label: "Surface-Mounted Lights",
     tagline: "Mounted directly on ceiling — no cut-out required. Best for concrete ceilings and retrofits.",
-    img: PLACEHOLDER_IMG,
+    img: "/images/indoor_new/Stellmore_Italia_Tono.jpg",
     products: [
 
       // ── LINEA A ──
@@ -1421,14 +1229,14 @@ export const INDOOR_CATEGORIES = [
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø75×100 mm",  code: "STR-203-28W-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø75×100 mm",  code: "STR-203-28W-18", tag: null },
-          { wattage: "24W", lumens: "2,040 lm", dims: "Ø90×135 mm",  code: "STR-203-28W-24", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "Ø100×150 mm", code: "STR-203-28W-30", tag: null },
-        ],
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø75×100 mm",  code: "STR-203-28W-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø75×100 mm",  code: "STR-203-28W-18" },
+          { wattage: "24W", lumens: "2,040 lm", dims: "Ø90×135 mm",  code: "STR-203-28W-24" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø100×150 mm", code: "STR-203-28W-30" },
+        ]
       },
 
       // ── LINEA B ──
@@ -1449,16 +1257,16 @@ export const INDOOR_CATEGORIES = [
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "3W",  lumens: "255 lm",   dims: "Ø37×74 mm",   code: "STR-203-24-3",  tag: null },
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø50×83 mm",   code: "STR-203-24-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø60×105 mm",  code: "STR-203-24-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø70×140 mm",  code: "STR-203-24-18", tag: null },
-          { wattage: "24W", lumens: "2,040 lm", dims: "Ø97×175 mm",  code: "STR-203-24-24", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "Ø116×119 mm", code: "STR-203-24-30", tag: null },
-        ],
+          { wattage: "3W",  lumens: "255 lm",   dims: "Ø37×74 mm",   code: "STR-203-24-3" },
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø50×83 mm",   code: "STR-203-24-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø60×105 mm",  code: "STR-203-24-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø70×140 mm",  code: "STR-203-24-18" },
+          { wattage: "24W", lumens: "2,040 lm", dims: "Ø97×175 mm",  code: "STR-203-24-24" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø116×119 mm", code: "STR-203-24-30" },
+        ]
       },
 
       // ── LINEA C ──
@@ -1479,15 +1287,15 @@ export const INDOOR_CATEGORIES = [
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø50×83 mm",   code: "STR-203-24T-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø60×105 mm",  code: "STR-203-24T-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø70×140 mm",  code: "STR-203-24T-18", tag: null },
-          { wattage: "24W", lumens: "2,040 lm", dims: "Ø97×175 mm",  code: "STR-203-24T-24", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "Ø116×119 mm", code: "STR-203-24T-30", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø50×83 mm",   code: "STR-203-24T-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø60×105 mm",  code: "STR-203-24T-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø70×140 mm",  code: "STR-203-24T-18" },
+          { wattage: "24W", lumens: "2,040 lm", dims: "Ø97×175 mm",  code: "STR-203-24T-24" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø116×119 mm", code: "STR-203-24T-30" },
+        ]
       },
 
       // ── LINEA D ──
@@ -1508,96 +1316,13 @@ export const INDOOR_CATEGORIES = [
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø60×100 mm", code: "STR-203-05W-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø85×118 mm", code: "STR-203-05W-18", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "Ø90×140 mm", code: "STR-203-05W-30", tag: null },
-        ],
-      },
-
-      // ── SOTTILE ──
-      {
-        id: "sottile",
-        name: "SOTTILE",
-        desc: "Compact surface-mounted spotlight with smooth graduated adjustment mechanism offering full 0°–360° horizontal rotation and precise vertical tilting.",
-        img: "/images/indoor_new/Stellmore_Italia_Sottile.jpg",
-        datasheet: {
-          cri: "90", cct: "2700K / 3000K / 4000K",
-          beam: "38° / 60°", ip: "IP40",
-          voltage: "AC 220–240V 50/60Hz",
-          lifespan: "50,000 hrs", warranty: "5 Years",
-          certifications: ["CE", "RoHS"],
-          downloads: [{ name: "Stellmore Italia Sottile", url: "/datasheets/indoor/Stellmore Italia Sottile.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "Yes (0°–360°)", operating_temp: "-20° to 60°",
-          led_chip: "OSRAM", finish: "WH / BK",
-          material: "Die Cast Aluminium",
-          dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
-        },
-        variants: [
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø50×130 mm", code: "STR-202-68-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø65×160 mm", code: "STR-202-68-18", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "Ø80×185 mm", code: "STR-202-68-30", tag: null },
-        ],
-      },
-
-      // ── TRACCIA ──
-      {
-        id: "traccia",
-        name: "TRACCIA",
-        desc: "Modern surface-mounted lighting fixture with minimalist cylindrical body and full 360° horizontal rotation for effortless directional adjustment in high-end commercial or residential interiors.",
-        img: "/images/indoor_new/Stellmore_Italia_Traccia.jpg",
-        datasheet: {
-          cri: "90", cct: "2700K / 3000K / 4000K",
-          beam: "38° / 60°", ip: "IP40",
-          voltage: "AC 220–240V 50/60Hz",
-          lifespan: "50,000 hrs", warranty: "5 Years",
-          certifications: ["CE", "RoHS"],
-          downloads: [{ name: "Stellmore Italia traccia", url: "/datasheets/indoor/Stellmore Italia traccia.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "Yes (360°)", operating_temp: "-20° to 60°",
-          led_chip: "OSRAM", finish: "WH / BK",
-          material: "Die Cast Aluminium",
-          dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
-        },
-        variants: [
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø50×130 mm", code: "STR-202-68W-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø65×150 mm", code: "STR-202-68W-18", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "Ø76×185 mm", code: "STR-202-68W-30", tag: null },
-        ],
-      },
-
-      // ── SCENA-W ──
-      {
-        id: "scena-w",
-        name: "SCENA-W",
-        desc: "Surface-mounted fixture engineered for versatility, precision, and minimal design with full 0°–360° rotation capability for focused illumination in modern commercial or residential spaces.",
-        img: "/images/indoor_new/Stellmore_Italia_Scena_W.jpg",
-        datasheet: {
-          cri: "90", cct: "2700K / 3000K / 4000K",
-          beam: "60°", ip: "IP40",
-          voltage: "AC 220–240V 50/60Hz",
-          lifespan: "50,000 hrs", warranty: "5 Years",
-          certifications: ["CE", "RoHS"],
-          downloads: [{ name: "Stellmore Italia Scena w", url: "/datasheets/indoor/Stellmore Italia Scena w.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "Yes (0°–360°)", operating_temp: "-20° to 60°",
-          led_chip: "OSRAM", finish: "WH / BK",
-          material: "Die Cast Aluminium",
-          dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
-        },
-        variants: [
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø54.5×135 mm", code: "STR-204-27W-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø63.5×155 mm", code: "STR-204-27W-18", tag: null },
-          { wattage: "24W", lumens: "2,040 lm", dims: "Ø76.5×180 mm", code: "STR-204-27W-24", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "Ø76.5×180 mm", code: "STR-204-27W-30", tag: null },
-          { wattage: "50W", lumens: "4,250 lm", dims: "Ø111×180 mm",  code: "STR-204-27W-50", tag: null },
-        ],
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø60×100 mm", code: "STR-203-05W-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø85×118 mm", code: "STR-203-05W-18" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø90×140 mm", code: "STR-203-05W-30" },
+        ]
       },
 
       // ── LUDANO ──
@@ -1613,17 +1338,16 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Ludano", url: "/datasheets/indoor/Stellmore Italia Ludano.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "Silver / Gold / Bronze",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
           { wattage: "7W",  lumens: "595 lm",   dims: "53.5×53.5×67 mm", code: "STR-101-83-7",  tag: "LUXURY" },
           { wattage: "12W", lumens: "1,020 lm", dims: "74×74×90 mm",     code: "STR-101-83-12", tag: "LUXURY" },
-        ],
+        ]
       },
 
       // ── LUZIO ──
@@ -1639,19 +1363,18 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Luzio", url: "/datasheets/indoor/Stellmore Italia Luzio.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø55×68 mm",   code: "STR-202-88-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø76×90 mm",   code: "STR-202-88-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø95×120 mm",  code: "STR-202-88-18", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "Ø116×150 mm", code: "STR-202-88-30", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø55×68 mm",   code: "STR-202-88-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø76×90 mm",   code: "STR-202-88-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø95×120 mm",  code: "STR-202-88-18" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø116×150 mm", code: "STR-202-88-30" },
+        ]
       },
 
       // ── MILANO ──
@@ -1667,17 +1390,16 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia Milano", url: "/datasheets/indoor/Stellmore Italia Milano.pdf", size: "PDF" }],
-          efficiency: "85 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "85 lm/w", power_factor: "0.9", operating_temp: "-20° to 60°",
           led_chip: "OSRAM", finish: "BK",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "9W",  lumens: "765 lm",   dims: "Ø103×55 mm", code: "STR-203-34-9",  tag: null },
-          { wattage: "15W", lumens: "1,275 lm", dims: "Ø148×65 mm", code: "STR-203-34-15", tag: null },
-        ],
+          { wattage: "9W",  lumens: "765 lm",   dims: "Ø103×55 mm", code: "STR-203-34-9" },
+          { wattage: "15W", lumens: "1,275 lm", dims: "Ø148×65 mm", code: "STR-203-34-15" },
+        ]
       },
 
       // ── MIRINO ──
@@ -1698,15 +1420,15 @@ export const INDOOR_CATEGORIES = [
           led_chip: "OSRAM", finish: "WH",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø90 mm",  code: "STR-202-49-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø105 mm", code: "STR-202-49-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø125 mm", code: "STR-202-49-18", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "Ø160 mm", code: "STR-202-49-30", tag: null },
-          { wattage: "50W", lumens: "4,250 lm", dims: "Ø190 mm", code: "STR-202-49-50", tag: null },
-        ],
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø90 mm",  code: "STR-202-49-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø105 mm", code: "STR-202-49-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø125 mm", code: "STR-202-49-18" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø160 mm", code: "STR-202-49-30" },
+          { wattage: "50W", lumens: "4,250 lm", dims: "Ø190 mm", code: "STR-202-49-50" },
+        ]
       },
 
       // ── TONO ──
@@ -1727,21 +1449,208 @@ export const INDOOR_CATEGORIES = [
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Aviation Aluminum",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "3W",  lumens: "255 lm",   dims: "Ø65×43 mm",   code: "STR-200-37-3",  tag: null },
-          { wattage: "7W",  lumens: "595 lm",   dims: "Ø85×60 mm",   code: "STR-200-37-7",  tag: null },
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø85×68 mm",   code: "STR-200-37-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø108×70 mm",  code: "STR-200-37-18", tag: null },
-          { wattage: "24W", lumens: "2,040 lm", dims: "Ø128×75 mm",  code: "STR-200-37-24", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "Ø138×120 mm", code: "STR-200-37-30", tag: null },
-          { wattage: "50W", lumens: "4,250 lm", dims: "Ø170×115 mm", code: "STR-200-37-50", tag: null },
-          { wattage: "80W", lumens: "6,800 lm", dims: "Ø195×125 mm", code: "STR-200-37-80", tag: null },
-        ],
+          { wattage: "3W",  lumens: "255 lm",   dims: "Ø65×43 mm",   code: "STR-200-37-3" },
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø85×60 mm",   code: "STR-200-37-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø85×68 mm",   code: "STR-200-37-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø108×70 mm",  code: "STR-200-37-18" },
+          { wattage: "24W", lumens: "2,040 lm", dims: "Ø128×75 mm",  code: "STR-200-37-24" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø138×120 mm", code: "STR-200-37-30" },
+          { wattage: "50W", lumens: "4,250 lm", dims: "Ø170×115 mm", code: "STR-200-37-50" },
+          { wattage: "80W", lumens: "6,800 lm", dims: "Ø195×125 mm", code: "STR-200-37-80" },
+        ]
       },
 
-    ],
+      // ── BLANCHA ──
+      {
+        id: "blancha",
+        name: "BLANCHA",
+        desc: "Surface-mounted spotlight, minimalist cylindrical design, integrated anti-glare.",
+        img: "/images/indoor_new/Stellmore_Italia_Blancha.jpg",
+        datasheet: {
+          cri: "90", cct: "2700K / 3000K / 4000K",
+          beam: "38° / 40° / 60°", ip: "IP40",
+          voltage: "AC 220–240V 50/60Hz",
+          lifespan: "50,000 hrs", warranty: "5 Years",
+          certifications: ["CE", "RoHS"],
+          downloads: [{ name: "Stellmore Italia Blancha", url: "/datasheets/indoor/Stellmore Italia Blancha.pdf", size: "PDF" }],
+          efficiency: "85 lm/w", power_factor: "0.9",
+          adjustable: "Yes", operating_temp: "-20° to 60°",
+          led_chip: "OSRAM", finish: "WH",
+          material: "Die Cast Aluminium",
+          dimming: "0/1–10V · DALI",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
+        },
+        variants: [
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø60×60 mm",  code: "STR-203-76-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø70×80 mm",  code: "STR-203-76-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø90×100 mm", code: "STR-203-76-18" },
+        ]
+      },
+
+      // ── BLANCHA B ──
+      {
+        id: "blancha-b",
+        name: "BLANCHA B",
+        desc: "Rimless surface-mounted spotlight, deep cup anti-glare design, matte black.",
+        img: "/images/indoor_new/Stellmore_Italia_Blancha_B.jpg",
+        datasheet: {
+          cri: "90", cct: "2700K / 3000K / 4000K",
+          beam: "30° / 40°", ip: "IP40",
+          voltage: "AC 220–240V 50/60Hz",
+          lifespan: "50,000 hrs", warranty: "5 Years",
+          certifications: ["CE", "RoHS"],
+          downloads: [{ name: "Stellmore Italia Blancha B", url: "/datasheets/indoor/Stellmore Italia Blancha B.pdf", size: "PDF" }],
+          efficiency: "85 lm/w", power_factor: "0.9",
+          adjustable: "Yes", operating_temp: "-20° to 60°",
+          led_chip: "OSRAM", finish: "BK",
+          material: "Die Cast Aluminium",
+          dimming: "Triac · 0/1–10V · DALI",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
+        },
+        variants: [
+          { wattage: "9W",  lumens: "765 lm",   dims: "Ø110×90 mm", code: "STR-203-78-9" },
+          { wattage: "15W", lumens: "1,275 lm", dims: "Ø150×90 mm", code: "STR-203-78-15" },
+        ]
+      },
+
+      // ── CIRO ──
+      {
+        id: "ciro",
+        name: "CIRO",
+        desc: "Rimless cylindrical surface spotlight, deep cup anti-glare optic, 360° adjustable.",
+        img: "/images/indoor_new/Stellmore_Italia_Ciro.jpg",
+        datasheet: {
+          cri: "90", cct: "2700K / 3000K / 4000K",
+          beam: "Wide diffused", ip: "IP40",
+          voltage: "AC 220–240V 50/60Hz",
+          lifespan: "50,000 hrs", warranty: "5 Years",
+          certifications: ["CE", "RoHS"],
+          downloads: [{ name: "Stellmore Italia Ciro", url: "/datasheets/indoor/Stellmore Italia Ciro.pdf", size: "PDF" }],
+          efficiency: "85 lm/w", power_factor: "0.9",
+          adjustable: "Yes", operating_temp: "-20° to 60°",
+          led_chip: "OSRAM", finish: "BK",
+          material: "Die Cast Aluminium",
+          dimming: "Triac · 0/1–10V · DALI",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
+        },
+        variants: [
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø75×70 mm",   code: "STR-203-79-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø109×75 mm",  code: "STR-203-79-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø151×85 mm",  code: "STR-203-79-18" },
+        ]
+      },
+
+      // ── ELLENA ──
+      {
+        id: "ellena",
+        name: "ELLENA",
+        desc: "360° adjustable surface-mounted spotlight, gold anodized aluminium body, private mould.",
+        img: "/images/indoor_new/Stellmore_Italia_Ellena.jpg",
+        datasheet: {
+          cri: "90", cct: "2700K / 3000K / 4000K",
+          beam: "60°", ip: "IP40",
+          voltage: "AC 220–240V 50/60Hz",
+          lifespan: "50,000 hrs", warranty: "5 Years",
+          certifications: ["CE", "RoHS"],
+          downloads: [{ name: "Stellmore Italia Ellena", url: "/datasheets/indoor/Stellmore Italia Ellena.pdf", size: "PDF" }],
+          efficiency: "85 lm/w", power_factor: "0.9",
+          adjustable: "Yes (360°)", operating_temp: "-20° to 60°",
+          led_chip: "OSRAM", finish: "GOLD",
+          material: "Die Cast Aluminium",
+          dimming: "0/1–10V · DALI",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
+        },
+        variants: [
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø70×77 mm",  code: "STR-203-55-7",  tag: "LUXURY" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø85×85 mm",  code: "STR-203-55-12", tag: "LUXURY" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø100×97 mm", code: "STR-203-55-18", tag: "LUXURY" },
+        ]
+      },
+
+      // ── ELLENA-S ──
+      {
+        id: "ellena-s",
+        name: "ELLENA-S",
+        desc: "360° adjustable surface-mounted spotlight, COB LED, faceted reflector.",
+        img: "/images/indoor_new/Stellmore_Italia_ellena_s.jpg",
+        datasheet: {
+          cri: "90", cct: "2700K / 3000K / 4000K",
+          beam: "60°", ip: "IP40",
+          voltage: "AC 220–240V 50/60Hz",
+          lifespan: "50,000 hrs", warranty: "5 Years",
+          certifications: ["CE", "RoHS"],
+          downloads: [{ name: "Stellmore Italia ellena s", url: "/datasheets/indoor/Stellmore Italia ellena s.pdf", size: "PDF" }],
+          efficiency: "85 lm/w", power_factor: "0.9",
+          adjustable: "Yes (360°)", operating_temp: "-20° to 60°",
+          led_chip: "OSRAM", finish: "WH",
+          material: "Die Cast Aluminium",
+          dimming: "0/1–10V · DALI",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
+        },
+        variants: [
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø70×77 mm",  code: "STR-203-55S-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø85×85 mm",  code: "STR-203-55S-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø100×97 mm", code: "STR-203-55S-18" },
+        ]
+      },
+
+      // ── FILO ──
+      {
+        id: "filo",
+        name: "FILO",
+        desc: "Surface-exposed spotlight, deep tube anti-glare, 360° adjustable head.",
+        img: "/images/indoor_new/Stellmore_Italia_Filo.jpg",
+        datasheet: {
+          cri: "90", cct: "2700K / 3000K / 4000K",
+          beam: "40° / 50°", ip: "IP40",
+          voltage: "AC 220–240V 50/60Hz",
+          lifespan: "50,000 hrs", warranty: "5 Years",
+          certifications: ["CE", "RoHS"],
+          downloads: [{ name: "Stellmore Italia Filo", url: "/datasheets/indoor/Stellmore Italia Filo.pdf", size: "PDF" }],
+          efficiency: "85 lm/w", power_factor: "0.9",
+          adjustable: "Yes (360°)", operating_temp: "-20° to 60°",
+          led_chip: "OSRAM", finish: "WH",
+          material: "Die Cast Aluminium",
+          dimming: "Triac · 0/1–10V · DALI",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
+        },
+        variants: [
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø33×110 mm", code: "STR-203-07T-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø40×135 mm", code: "STR-203-07T-12" },
+        ]
+      },
+
+      // ── NELLO ──
+      {
+        id: "nello",
+        name: "NELLO",
+        desc: "Surface-mounted 360° adjustable spotlight with slim cylindrical body, high-efficiency COB LED, and black anti-glare inner reflector for precision lighting control.",
+        img: "/images/indoor_new/Stellmore_Italia_Nello.jpg",
+        datasheet: {
+          cri: "90", cct: "2700K / 3000K / 4000K",
+          beam: "40°", ip: "IP40",
+          voltage: "AC 220–240V 50/60Hz",
+          lifespan: "50,000 hrs", warranty: "5 Years",
+          certifications: ["CE", "RoHS"],
+          downloads: [{ name: "Stellmore Italia Nello", url: "/datasheets/indoor/Stellmore Italia Nello.pdf", size: "PDF" }],
+          efficiency: "85 lm/w", power_factor: "0.9",
+          adjustable: "Yes (360°)", operating_temp: "-20° to 60°",
+          led_chip: "OSRAM", finish: "WH",
+          material: "Die Cast Aluminium",
+          dimming: "Triac · 0/1–10V · DALI",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
+        },
+        variants: [
+          { wattage: "7W",  lumens: "595 lm",   dims: "Ø44×65 mm",  code: "STR-203-54-7" },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø44×95 mm",  code: "STR-202-54-12" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø88×190 mm", code: "STR-202-54-30" },
+        ]
+      },
+
+    ]
   },
 
   // ─────────────────────────────────────────────
@@ -1751,7 +1660,7 @@ export const INDOOR_CATEGORIES = [
     id: "track",
     label: "Track Lights",
     tagline: "Precision direction on rail — retail, galleries, showrooms.",
-    img: PLACEHOLDER_IMG,
+    img: "/images/indoor_new/Stellmore_Italia_Linea_Pro.jpg",
     products: [
 
       // ── LINEA PRO ──
@@ -1772,14 +1681,14 @@ export const INDOOR_CATEGORIES = [
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø75×100 mm",  code: "STR-203-28-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø75×100 mm",  code: "STR-203-28-18", tag: null },
-          { wattage: "24W", lumens: "2,040 lm", dims: "Ø90×135 mm",  code: "STR-203-28-24", tag: null },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø75×100 mm",  code: "STR-203-28-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø75×100 mm",  code: "STR-203-28-18" },
+          { wattage: "24W", lumens: "2,040 lm", dims: "Ø90×135 mm",  code: "STR-203-28-24" },
           { wattage: "30W", lumens: "2,550 lm", dims: "Ø100×150 mm", code: "STR-203-28-30", tag: "BESTSELLER" },
-        ],
+        ]
       },
 
       // ── LINEA ──
@@ -1800,13 +1709,67 @@ export const INDOOR_CATEGORIES = [
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø60×100 mm", code: "STR-203-05-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø80×130 mm", code: "STR-203-05-18", tag: null },
-          { wattage: "30W", lumens: "2,550 lm", dims: "Ø90×150 mm", code: "STR-203-05-30", tag: null },
-        ],
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø60×100 mm", code: "STR-203-05-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø80×130 mm", code: "STR-203-05-18" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø90×150 mm", code: "STR-203-05-30" },
+        ]
+      },
+
+      // ── SOTTILE ──
+      {
+        id: "sottile",
+        name: "SOTTILE",
+        desc: "Track spotlight with slim cylindrical body, smooth graduated adjustment and full 0°–360° horizontal rotation for precise directional lighting in retail and hospitality environments.",
+        img: "/images/indoor_new/Stellmore_Italia_Sottile.jpg",
+        datasheet: {
+          cri: "90", cct: "2700K / 3000K / 4000K",
+          beam: "38° / 60°", ip: "IP40",
+          voltage: "AC 220–240V 50/60Hz",
+          lifespan: "50,000 hrs", warranty: "5 Years",
+          certifications: ["CE", "RoHS"],
+          downloads: [{ name: "Stellmore Italia Sottile", url: "/datasheets/indoor/Stellmore Italia Sottile.pdf", size: "PDF" }],
+          efficiency: "85 lm/w", power_factor: "0.9",
+          adjustable: "Yes (0°–360°)", operating_temp: "-20° to 60°",
+          led_chip: "OSRAM", finish: "WH / BK",
+          material: "Die Cast Aluminium",
+          dimming: "Triac · 0/1–10V · DALI",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
+        },
+        variants: [
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø50×130 mm", code: "STR-202-68-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø65×160 mm", code: "STR-202-68-18" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø80×185 mm", code: "STR-202-68-30" },
+        ]
+      },
+
+      // ── TRACCIA ──
+      {
+        id: "traccia",
+        name: "TRACCIA",
+        desc: "Track spotlight with minimalist cylindrical body and full 360° horizontal rotation for effortless directional adjustment — ideal for galleries, retail and commercial interiors.",
+        img: "/images/indoor_new/Stellmore_Italia_Traccia.jpg",
+        datasheet: {
+          cri: "90", cct: "2700K / 3000K / 4000K",
+          beam: "38° / 60°", ip: "IP40",
+          voltage: "AC 220–240V 50/60Hz",
+          lifespan: "50,000 hrs", warranty: "5 Years",
+          certifications: ["CE", "RoHS"],
+          downloads: [{ name: "Stellmore Italia traccia", url: "/datasheets/indoor/Stellmore Italia traccia.pdf", size: "PDF" }],
+          efficiency: "85 lm/w", power_factor: "0.9",
+          adjustable: "Yes (360°)", operating_temp: "-20° to 60°",
+          led_chip: "OSRAM", finish: "WH / BK",
+          material: "Die Cast Aluminium",
+          dimming: "Triac · 0/1–10V · DALI",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
+        },
+        variants: [
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø50×130 mm", code: "STR-202-68W-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø65×150 mm", code: "STR-202-68W-18" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø76×185 mm", code: "STR-202-68W-30" },
+        ]
       },
 
       // ── SCENA ──
@@ -1827,18 +1790,47 @@ export const INDOOR_CATEGORIES = [
           led_chip: "OSRAM", finish: "WH / BK",
           material: "Die Cast Aluminium",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "12W", lumens: "1,020 lm", dims: "Ø54.5×135 mm", code: "STR-204-27-12", tag: null },
-          { wattage: "18W", lumens: "1,530 lm", dims: "Ø63.5×155 mm", code: "STR-204-27-18", tag: null },
-          { wattage: "24W", lumens: "2,040 lm", dims: "Ø76.5×180 mm", code: "STR-204-27-24", tag: null },
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø54.5×135 mm", code: "STR-204-27-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø63.5×155 mm", code: "STR-204-27-18" },
+          { wattage: "24W", lumens: "2,040 lm", dims: "Ø76.5×180 mm", code: "STR-204-27-24" },
           { wattage: "30W", lumens: "2,550 lm", dims: "Ø76.5×180 mm", code: "STR-204-27-30", tag: "BESTSELLER" },
-          { wattage: "50W", lumens: "4,250 lm", dims: "Ø111×180 mm",  code: "STR-204-27-50", tag: null },
-        ],
+          { wattage: "50W", lumens: "4,250 lm", dims: "Ø111×180 mm",  code: "STR-204-27-50" },
+        ]
       },
 
-    ],
+      // ── SCENA-W ──
+      {
+        id: "scena-w",
+        name: "SCENA-W",
+        desc: "High-performance track spotlight with graduated angle markings and smooth 360° rotation — white body variant of the SCENA series for seamless ceiling integration in light-coloured interiors.",
+        img: "/images/indoor_new/Stellmore_Italia_Scena_W.jpg",
+        datasheet: {
+          cri: "90", cct: "2700K / 3000K / 4000K",
+          beam: "60°", ip: "IP40",
+          voltage: "AC 220–240V 50/60Hz",
+          lifespan: "50,000 hrs", warranty: "5 Years",
+          certifications: ["CE", "RoHS"],
+          downloads: [{ name: "Stellmore Italia Scena w", url: "/datasheets/indoor/Stellmore Italia Scena w.pdf", size: "PDF" }],
+          efficiency: "85 lm/w", power_factor: "0.9",
+          adjustable: "Yes (0°–360°)", operating_temp: "-20° to 60°",
+          led_chip: "OSRAM", finish: "WH",
+          material: "Die Cast Aluminium",
+          dimming: "Triac · 0/1–10V · DALI",
+          application: "Modern Workspaces, Institutions, Small Format Retail, Hotels, High End Villas"
+        },
+        variants: [
+          { wattage: "12W", lumens: "1,020 lm", dims: "Ø54.5×135 mm", code: "STR-204-27W-12" },
+          { wattage: "18W", lumens: "1,530 lm", dims: "Ø63.5×155 mm", code: "STR-204-27W-18" },
+          { wattage: "24W", lumens: "2,040 lm", dims: "Ø76.5×180 mm", code: "STR-204-27W-24" },
+          { wattage: "30W", lumens: "2,550 lm", dims: "Ø76.5×180 mm", code: "STR-204-27W-30" },
+          { wattage: "50W", lumens: "4,250 lm", dims: "Ø111×180 mm",  code: "STR-204-27W-50" },
+        ]
+      },
+
+    ]
   },
 
   // ─────────────────────────────────────────────
@@ -1848,7 +1840,7 @@ export const INDOOR_CATEGORIES = [
     id: "pendant",
     label: "Pendant Lights",
     tagline: "Suspended elegance — reception areas, dining, feature lighting.",
-    img: PLACEHOLDER_IMG,
+    img: "/images/indoor_new/Stellmore_Italia_Splendore_H.jpg",
     products: [
 
       // ── SPLENDORE-H ──
@@ -1864,16 +1856,15 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia-SPLENDORE-H", url: "/datasheets/indoor/Stellmore Italia-SPLENDORE-H.pdf", size: "PDF" }],
-          efficiency: "110 lm/W", power_factor: "0.5",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "110 lm/W", power_factor: "0.5", operating_temp: "-20° to 60°",
           led_chip: "BRIDGELUX", finish: "WH / BK",
           material: "Die Cast Aluminium · PMMA Opal Lens",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workplaces, Institutions, Retail Outlets, Hotels, High End Villas",
+          application: "Modern Workplaces, Institutions, Retail Outlets, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "12W", lumens: "1,320 lm", dims: "Ø52×H150 mm", code: "SLM-104712-CL", tag: null },
-        ],
+          { wattage: "12W", lumens: "1,320 lm", dims: "Ø52×H150 mm", code: "SLM-104712-CL" },
+        ]
       },
 
       // ── SPLENDORE-R ──
@@ -1889,16 +1880,15 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia-SPLENDORE-R", url: "/datasheets/indoor/Stellmore Italia-SPLENDORE-R.pdf", size: "PDF" }],
-          efficiency: "110 lm/W", power_factor: "0.5",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "110 lm/W", power_factor: "0.5", operating_temp: "-20° to 60°",
           led_chip: "BRIDGELUX", finish: "WH / BK",
           material: "Die Cast Aluminium · PMMA Opal Lens",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workplaces, Institutions, Retail Outlets, Hotels, High End Villas",
+          application: "Modern Workplaces, Institutions, Retail Outlets, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "12W", lumens: "1,320 lm", dims: "Ø52×H150 mm", code: "SLM-104812-CL", tag: null },
-        ],
+          { wattage: "12W", lumens: "1,320 lm", dims: "Ø52×H150 mm", code: "SLM-104812-CL" },
+        ]
       },
 
       // ── SPLENDORE-S ──
@@ -1914,29 +1904,228 @@ export const INDOOR_CATEGORIES = [
           lifespan: "50,000 hrs", warranty: "5 Years",
           certifications: ["CE", "RoHS"],
           downloads: [{ name: "Stellmore Italia-SPLENDORE-S", url: "/datasheets/indoor/Stellmore Italia-SPLENDORE-S.pdf", size: "PDF" }],
-          efficiency: "110 lm/W", power_factor: "0.5",
-          adjustable: "No", operating_temp: "-20° to 60°",
+          efficiency: "110 lm/W", power_factor: "0.5", operating_temp: "-20° to 60°",
           led_chip: "BRIDGELUX", finish: "WH / BK",
           material: "Die Cast Aluminium · PMMA Opal Lens",
           dimming: "Triac · 0/1–10V · DALI",
-          application: "Modern Workplaces, Institutions, Retail Outlets, Hotels, High End Villas",
+          application: "Modern Workplaces, Institutions, Retail Outlets, Hotels, High End Villas"
         },
         variants: [
-          { wattage: "12W", lumens: "1,320 lm", dims: "Ø52×H150 mm", code: "SLM-104612-CL", tag: null },
-        ],
+          { wattage: "12W", lumens: "1,320 lm", dims: "Ø52×H150 mm", code: "SLM-104612-CL" },
+        ]
       },
 
-    ],
+    ]
   },
 
   // ─────────────────────────────────────────────
-  // 5. LINEAR LIGHTS
+  // 5. MAGNETIC TRACK LIGHTS
+  // ─────────────────────────────────────────────
+  {
+    id: "magnetic-track",
+    label: "Magnetic Track Lights",
+    tagline: "48V magnetic rail system — snap-on fixtures for retail, hospitality and architectural interiors.",
+    img: "/images/indoor_new/Stellmore_Italia_Magnetic_Spot_Light.jpg",
+    products: [
+
+      // ── MAGNETIC SPOT LIGHT ──
+      {
+        id: "magnetic-spot-light",
+        name: "MAGNETIC SPOT LIGHT",
+        desc: "Magnetic track spotlight.",
+        img: "/images/indoor_new/Stellmore_Italia_Magnetic_Spot_Light.jpg",
+        datasheet: {
+          cct: "3000K / 4000K / 6000K",
+          ip: "IP20",
+          efficiency: "130 lm/W",
+          downloads: []
+        },
+        variants: [
+          { wattage: "7W",  dims: "Ø50×H90 mm",  code: "STR-MAG-SP-7" },
+          { wattage: "12W", dims: "Ø50×H110 mm", code: "STR-MAG-SP-12" },
+          { wattage: "24W", dims: "Ø60×H150 mm", code: "STR-MAG-SP-24" },
+          { wattage: "30W", dims: "Ø60×H150 mm", code: "STR-MAG-SP-30" },
+        ]
+      },
+
+      // ── MAGNETIC FOCUS LIGHT ──
+      {
+        id: "magnetic-focus-light",
+        name: "MAGNETIC FOCUS LIGHT",
+        desc: "Magnetic track focus spotlight.",
+        img: "/images/indoor_new/Stellmore_Italia_Magnetic_Focus_Light.png",
+        datasheet: {
+          cct: "3000K / 4000K / 6000K",
+          ip: "IP20",
+          efficiency: "130 lm/W",
+          downloads: []
+        },
+        variants: [
+          { wattage: "12W", dims: "Ø55×H115 mm", code: "STR-MAG-FC-12" },
+          { wattage: "20W", dims: "Ø65×H115 mm", code: "STR-MAG-FC-20" },
+          { wattage: "30W", dims: "Ø75×H150 mm", code: "STR-MAG-FC-30" },
+        ]
+      },
+
+      // ── MAGNETIC FOLDING FLOOD LIGHT ──
+      {
+        id: "magnetic-folding-flood-light",
+        name: "MAGNETIC FOLDING FLOOD LIGHT",
+        desc: "Magnetic track folding flood light.",
+        img: "/images/indoor_new/Stellmore_Italia_Magnetic_Folding_Flood_Light.jpg",
+        datasheet: {
+          cct: "3000K / 4000K / 6000K",
+          ip: "IP20",
+          efficiency: "130 lm/W",
+          downloads: []
+        },
+        variants: [
+          { wattage: "6W",  dims: "112 mm", code: "STR-MAG-FF-6" },
+          { wattage: "12W", dims: "220 mm", code: "STR-MAG-FF-12" },
+          { wattage: "18W", dims: "330 mm", code: "STR-MAG-FF-18" },
+        ]
+      },
+
+      // ── MAGNETIC FLOOD LIGHT (Bar) ──
+      {
+        id: "magnetic-flood-light-bar",
+        name: "MAGNETIC FLOOD LIGHT",
+        desc: "Magnetic track flood light.",
+        img: "/images/indoor_new/Stellmore_Italia_Magnetic_Flood_Light_Bar.jpg",
+        datasheet: {
+          cct: "3000K / 4000K / 6000K",
+          ip: "IP20",
+          efficiency: "130 lm/W",
+          downloads: []
+        },
+        variants: [
+          { wattage: "12W", dims: "300 mm",  code: "STR-MAG-FL-12" },
+          { wattage: "24W", dims: "600 mm",  code: "STR-MAG-FL-24" },
+          { wattage: "36W", dims: "900 mm",  code: "STR-MAG-FL-36" },
+          { wattage: "42W", dims: "1200 mm", code: "STR-MAG-FL-42" },
+        ]
+      },
+
+      // ── MAGNETIC FLOOD LIGHT (Multi-head) ──
+      {
+        id: "magnetic-flood-light-multi",
+        name: "MAGNETIC FLOOD LIGHT (MULTI)",
+        desc: "Magnetic track multi-head flood light.",
+        img: "/images/indoor_new/Stellmore_Italia_Magnetic_Flood_Light_Multi.jpg",
+        datasheet: {
+          cct: "3000K / 4000K / 6000K",
+          ip: "IP20",
+          efficiency: "130 lm/W",
+          downloads: []
+        },
+        variants: [
+          { wattage: "6W",  dims: "112 mm", code: "STR-MAG-FM-6" },
+          { wattage: "12W", dims: "220 mm", code: "STR-MAG-FM-12" },
+          { wattage: "18W", dims: "330 mm", code: "STR-MAG-FM-18" },
+          { wattage: "24W", dims: "440 mm", code: "STR-MAG-FM-24" },
+          { wattage: "30W", dims: "550 mm", code: "STR-MAG-FM-30" },
+          { wattage: "36W", dims: "660 mm", code: "STR-MAG-FM-36" },
+          { wattage: "42W", dims: "770 mm", code: "STR-MAG-FM-42" },
+          { wattage: "48W", dims: "880 mm", code: "STR-MAG-FM-48" },
+        ]
+      },
+
+    ]
+  },
+
+  // ─────────────────────────────────────────────
+  // 7. STRIP LIGHTS
+  // ─────────────────────────────────────────────
+  {
+    id: "strip",
+    label: "Strip Lights",
+    tagline: "Flexible COB and SMD LED strips for cove lighting, cabinet underlighting and architectural accents.",
+    img: "/images/indoor_new/Stellmore_Italia_Strip_COB_5mm.jpg",
+    products: [
+
+      // ── COB 5mm ──
+      {
+        id: "strip-cob-5mm",
+        name: "COB",
+        desc: "COB LED strip, IP20.",
+        img: "/images/indoor_new/Stellmore_Italia_Strip_COB_5mm.jpg",
+        datasheet: {
+          cct: "2700K / 3000K / 4000K / 6000K",
+          ip: "IP20",
+          efficiency: "90 lm/W",
+          downloads: []
+        },
+        variants: [
+          { wattage: "10W", dims: "5000×5×2 mm", code: "STR-COB-05-10" },
+          { wattage: "12W", dims: "5000×5×2 mm", code: "STR-COB-05-12" },
+        ]
+      },
+
+      // ── COB 8mm ──
+      {
+        id: "strip-cob-8mm",
+        name: "COB",
+        desc: "COB LED strip, IP20.",
+        img: "/images/indoor_new/Stellmore_Italia_Strip_COB_8mm.jpg",
+        datasheet: {
+          cct: "2700K / 3000K / 4000K / 6000K",
+          ip: "IP20",
+          efficiency: "90 lm/W",
+          downloads: []
+        },
+        variants: [
+          { wattage: "10W", dims: "5000×8×2 mm", code: "STR-COB-08-10" },
+          { wattage: "12W", dims: "5000×8×2 mm", code: "STR-COB-08-12" },
+        ]
+      },
+
+      // ── SMD IP67 ──
+      {
+        id: "strip-smd-ip67",
+        name: "SMD",
+        desc: "SMD LED strip, IP67.",
+        img: "/images/indoor_new/Stellmore_Italia_Strip_SMD_IP67.jpg",
+        datasheet: {
+          cct: "2700K / 3000K / 4000K / 6000K",
+          ip: "IP67",
+          efficiency: "90 lm/W",
+          downloads: []
+        },
+        variants: [
+          { wattage: "10W", dims: "5000×8×2 mm", code: "STR-SMD-08-IP67-10" },
+          { wattage: "12W", dims: "5000×8×2 mm", code: "STR-SMD-08-IP67-12" },
+        ]
+      },
+
+      // ── SMD 12mm ──
+      {
+        id: "strip-smd-12mm",
+        name: "SMD",
+        desc: "SMD LED strip, IP20 / IP65 / IP67.",
+        img: "/images/indoor_new/Stellmore_Italia_Strip_SMD_12mm.jpg",
+        datasheet: {
+          cct: "2700K / 3000K / 4000K / 6000K",
+          ip: "IP20 / IP65 / IP67",
+          efficiency: "90 lm/W",
+          downloads: []
+        },
+        variants: [
+          { wattage: "10W", dims: "5000×12×2 mm", code: "STR-SMD-12-10" },
+          { wattage: "12W", dims: "5000×12×2 mm", code: "STR-SMD-12-12" },
+        ]
+      },
+
+    ]
+  },
+
+  // ─────────────────────────────────────────────
+  // 6. LINEAR LIGHTS
   // ─────────────────────────────────────────────
   {
     id: "linear",
     label: "Linear Lights",
     tagline: "Clean continuous lines — aluminium extrusion profiles for suspended, recessed and floor installations.",
-    img: "/images/indoor_new/linear-suspended-75x75.jpeg",
+    img: "/images/indoor_new/Stellmore_Italia_Linear_Profiles.jpg",
     products: [
 
       // ── LINEAR PROFILES ──
@@ -1944,50 +2133,25 @@ export const INDOOR_CATEGORIES = [
         id: "linear-profiles",
         name: "LINEAR PROFILES",
         type: "system",
-        desc: "Aluminium extrusion profile system for suspended, recessed and floor-mounted linear LED installations. Pair with Tridonic, TCI or Philips LED modules.",
-        img: "/images/indoor_new/linear-suspended-75x75.jpeg",
+        img: "/images/indoor_new/Stellmore_Italia_Linear_Profiles.jpg",
+        desc: "Aluminium extrusion profiles available in suspended, recessed and floor mount types. Compatible with Tridonic, TCI and Philips LED modules.",
         datasheet: {
-          cri: "80 / 90", cct: "2700K / 3000K / 4000K / 6000K",
-          beam: "—", ip: "IP20",
-          voltage: "AC 220–240V 50/60Hz",
-          lifespan: "50,000 hrs", warranty: "5 Years",
-          efficiency: "85–100 lm/w", power_factor: "0.9",
-          adjustable: "No", operating_temp: "-20° to 60°",
-          led_chip: "Tridonic / TCI / Philips", finish: "Anodised Aluminium",
-          material: "Extruded Aluminium + Opal PMMA Diffuser",
-          dimming: "Triac · 0/1–10V · DALI",
-          application: "Offices, Retail, Hospitality, Corridors, Residential",
+          cct: "2700K / 3000K / 4000K / 6000K",
+          ip: "IP20",
+          efficiency: "85–100 lm/W",
+          downloads: []
         },
-        profile_types: [
-          {
-            type: "suspended",
-            label: "Suspended",
-            profiles: [
-              { size: "75 × 75 mm", code: "STR-LIN-S75", img: "/images/indoor_new/linear-suspended-75x75.jpeg", desc: "Wide-body, high output" },
-              { size: "35 × 35 mm", code: "STR-LIN-S35", img: "/images/indoor_new/linear-suspended-35x35.jpeg", desc: "Slim, minimal reveal" },
-            ],
-          },
-          {
-            type: "recessed",
-            label: "Recessed",
-            profiles: [
-              { size: "75 × 35 mm", code: "STR-LIN-R75", img: "/images/indoor_new/linear-recessed-75x35.jpeg", desc: "Deep flush recessed" },
-              { size: "50 × 35 mm", code: "STR-LIN-R50", img: "/images/indoor_new/linear-recessed-50x35.jpeg", desc: "Compact recessed" },
-            ],
-          },
-          {
-            type: "floor",
-            label: "Floor",
-            profiles: [
-              { size: "30 × 20 mm", code: "STR-LIN-F30", img: "/images/indoor_new/linear-floor-30x20.jpeg", desc: "Low-profile floor channel" },
-              { size: "26 × 21 mm", code: "STR-LIN-F26", img: "/images/indoor_new/linear-floor-26x21.jpeg", desc: "Ultra-slim floor channel" },
-            ],
-          },
-        ],
-        variants: [],
+        variants: [
+          { type: "Suspended", dims: "75 × 75 mm", code: "STR-LIN-S75" },
+          { type: "Suspended", dims: "35 × 35 mm", code: "STR-LIN-S35" },
+          { type: "Recessed",  dims: "75 × 35 mm", code: "STR-LIN-R75" },
+          { type: "Recessed",  dims: "50 × 35 mm", code: "STR-LIN-R50" },
+          { type: "Floor",     dims: "30 × 20 mm", code: "STR-LIN-F30" },
+          { type: "Floor",     dims: "26 × 21 mm", code: "STR-LIN-F26" },
+        ]
       },
 
-    ],
+    ]
   },
 
 ];

@@ -12,11 +12,10 @@
   background: rgba(0, 0, 0, 0.9);
   backdrop-filter: blur(8px);
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 24px;
+  justify-content: flex-start;
   animation: ilFadeIn 0.25s ease forwards;
-  box-sizing: border-box;
 }
 
 @keyframes ilFadeIn {
@@ -27,14 +26,19 @@
 .il-panel {
   width: calc(100vw - 48px);
   max-width: 1600px;
-  height: 90vh;
-  max-height: none;
+  flex: 1;
+  min-height: 0;
   background: #0b0b0b;
   border: 1px solid #1e1e1e;
-  border-radius: 10px;
+  border-top: none;
   display: flex;
   overflow: hidden;
   animation: ilSlideUp 0.3s var(--ease) forwards;
+}
+
+@keyframes ilSlideUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
 }
 
 /* ── splash: nothing selected yet ───────────── */
@@ -55,10 +59,7 @@
   text-transform: uppercase;
 }
 
-@keyframes ilSlideUp {
-  from { transform: translateY(30px); opacity: 0; }
-  to   { transform: translateY(0);    opacity: 1; }
-}
+
 
 /* ═══════════════════════════════════════════════════
    COLUMN 1 — CATEGORY SIDEBAR
@@ -202,7 +203,7 @@
 
 .il-cat-row-name {
   font-family: var(--font-disp);
-  font-size: 0.9rem;
+  font-size: 1.05rem;
   letter-spacing: 0.04em;
   color: #cccccc;
   white-space: nowrap;
@@ -215,7 +216,7 @@
 .il-cat-row.active .il-cat-row-name { color: #f0ece4; }
 
 .il-cat-row-count {
-  font-size: 0.58rem;
+  font-size: 0.68rem;
   letter-spacing: 0.08em;
   color: #cccccc;
   margin-top: 2px;
@@ -238,7 +239,7 @@
 .il-cat-row.active .il-cat-row-dot            { opacity: 1; }
 .il-cat-sidebar--collapsed .il-cat-row-dot    { display: none; }
 
-/* close button */
+/* ── Sidebar footer close button ──────────────────── */
 .il-cat-sidebar-footer {
   padding: 14px 16px;
   border-top: 1px solid #161616;
@@ -261,6 +262,11 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   font-family: var(--font-body);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  cursor: pointer;
   transition: color 0.2s, background 0.2s, border-color 0.2s;
   overflow: hidden;
   white-space: nowrap;
@@ -282,6 +288,7 @@
   opacity: 0;
   max-width: 0;
 }
+
 
 /* ═══════════════════════════════════════════════════
    COLUMN 2 — PRODUCT LIST
@@ -339,7 +346,7 @@
 
 .il-list-title {
   font-family: var(--font-disp);
-  font-size: 1.4rem;
+  font-size: 1.15rem;
   letter-spacing: 0.07em;
   color: #c8a96e;
   line-height: 1;
@@ -350,17 +357,17 @@
 }
 
 .il-list--compact .il-list-title {
-  font-size: 1rem;
+  font-size: 1.15rem;
 }
 
 .il-list-tagline {
-  font-size: 0.64rem;
+  font-size: 0.78rem;
   color: #f0ece4;
   margin-bottom: 4px;
 }
 
 .il-list-count {
-  font-size: 0.58rem;
+  font-size: 0.66rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #f0ece4;
@@ -438,7 +445,7 @@
 
 .il-item-name {
   font-family: var(--font-disp);
-  font-size: 0.9rem;
+  font-size: 1.0rem;
   letter-spacing: 0.04em;
   color: #ececec;
   white-space: nowrap;
@@ -447,13 +454,13 @@
   transition: color 0.2s, font-size 0.3s;
 }
 
-.il-list--compact .il-item-name { font-size: 0.78rem; }
+.il-list--compact .il-item-name { font-size: 1.0rem; }
 
 .il-item.active .il-item-name,
 .il-item:hover  .il-item-name { color: #f0ece4; }
 
 .il-item-desc {
-  font-size: 0.62rem;
+  font-size: 0.75rem;
   color: #f0ece4;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -463,7 +470,7 @@
 .il-item-badge {
   display: inline-block;
   margin-top: 4px;
-  font-size: 0.54rem;
+  font-size: 0.62rem;
   letter-spacing: 0.1em;
   color: #f0ece4;
   border: 1px solid #222;
@@ -592,7 +599,7 @@
 
 .il-detail-cat {
   display: block;
-  font-size: 0.54rem;
+  font-size: 0.7rem;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: rgba(200, 169, 110, 0.72);
@@ -601,7 +608,7 @@
 
 .il-detail-name {
   font-family: var(--font-disp);
-  font-size: 1.75rem;
+  font-size: 2rem;
   letter-spacing: 0.07em;
   color: #c8a96e;
   font-weight: 700;
@@ -654,14 +661,14 @@
 }
 
 .il-detail-desc {
-  font-size: 0.74rem;
+  font-size: 0.84rem;
   color: #f0ece4;
   margin: 0;
 }
 
 /* ── Datasheet section labels ─────────────────────── */
 .il-ds-label {
-  font-size: 0.54rem;
+  font-size: 0.7rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: #c8a96e;
@@ -703,7 +710,7 @@
   align-items: center;
   padding: 8px 12px;
   border-bottom: 1px solid #111;
-  font-size: 0.72rem;
+  font-size: 0.88rem;
 }
 
 .il-spec-row:last-child,
@@ -744,7 +751,7 @@
   padding: 7px 12px;
   background: #0e0e0e;
   border-bottom: 1px solid #1a1a1a;
-  font-size: 0.53rem;
+  font-size: 0.7rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: #f0ece4;
@@ -757,7 +764,7 @@
   padding: 8px 12px;
   border-bottom: 1px solid #111;
   gap: 8px;
-  font-size: 0.7rem;
+  font-size: 0.85rem;
   transition: background 0.15s;
 }
 
@@ -899,11 +906,11 @@
 }
 
 @media (max-width: 768px) {
-  .il-overlay { padding: 0; align-items: flex-end; }
+  .il-overlay { padding: 0; align-items: flex-end; justify-content: flex-end; }
 
   .il-panel {
     width: 100%;
-    height: 94vh;
+    height: 88vh;
     max-height: none;
     border-radius: 12px 12px 0 0;
     flex-direction: column;
@@ -945,7 +952,7 @@
   .il-cat-row-dot             { display: none; }
   .il-cat-row-count           { display: none; }
   .il-cat-row-info            { opacity: 1 !important; max-width: none !important; }
-  .il-cat-row-name            { font-size: 0.7rem; white-space: nowrap; color: #ececec; }
+  .il-cat-row-name            { font-size: 1.05rem; white-space: nowrap; color: #ececec; }
 
   .il-list-anim-wrap,
   .il-list,
@@ -991,107 +998,30 @@
   padding: 24px;
 }
 /* ─── Linear Profile Panel ─────────────────────────────────── */
-.il-linear-type-row {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 4px;
-  flex-wrap: wrap;
+/* ── Variants table without lumens column ─────────── */
+.il-variants-head--no-lm,
+.il-variants-row--no-lm {
+  grid-template-columns: 80px 1fr 1fr;
 }
 
-.il-linear-type-btn {
-  padding: 6px 16px;
-  border-radius: 20px;
-  border: 1px solid var(--il-border, #2a2a2a);
-  background: transparent;
-  color: var(--il-text-muted, #888);
-  font-size: 12px;
-  font-family: inherit;
-  cursor: pointer;
-  transition: all 0.15s ease;
-  letter-spacing: 0.03em;
-}
-.il-linear-type-btn:hover {
-  border-color: var(--il-gold, #c8a96e);
-  color: var(--il-gold, #c8a96e);
-}
-.il-linear-type-btn.active {
-  background: var(--il-gold, #c8a96e);
-  border-color: var(--il-gold, #c8a96e);
-  color: #000;
-  font-weight: 500;
+/* ── Linear profiles table — type / dims / code ───── */
+.il-variants-head--linear,
+.il-variants-row--linear {
+  grid-template-columns: 100px 1fr 1fr;
 }
 
-.il-linear-profiles-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-}
-
-.il-linear-profile-card {
-  border: 1px solid var(--il-border, #2a2a2a);
-  border-radius: 8px;
-  padding: 12px;
-  cursor: pointer;
-  transition: all 0.15s ease;
-  background: transparent;
-}
-.il-linear-profile-card:hover {
-  border-color: var(--il-gold, #c8a96e);
-}
-.il-linear-profile-card.active {
-  border-color: var(--il-gold, #c8a96e);
-  background: rgba(200, 169, 110, 0.06);
-}
-
-.il-linear-profile-img {
-  width: 100%;
-  height: 80px;
-  border-radius: 5px;
-  overflow: hidden;
-  background: var(--il-surface, #111);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-.il-linear-profile-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.il-linear-profile-size {
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--il-text, #f0ece4);
-  margin-bottom: 2px;
-}
-.il-linear-profile-desc {
-  font-size: 11px;
-  color: var(--il-text-muted, #888);
-  margin-bottom: 4px;
-}
-.il-linear-profile-code {
-  font-size: 10px;
-  color: var(--il-gold, #c8a96e);
-  font-family: monospace;
-  letter-spacing: 0.04em;
-}
-
-.il-linear-modules-note {
-  margin-top: 20px;
-  padding: 12px 14px;
-  border: 1px solid var(--il-border, #2a2a2a);
-  border-radius: 6px;
-  background: var(--il-surface, #111);
-}
-.il-linear-modules-note strong {
-  color: var(--il-text, #f0ece4);
-  font-weight: 500;
-}
 
 .il-detail-tag--system {
   background: rgba(200, 169, 110, 0.15);
   color: var(--il-gold, #c8a96e);
   border: 1px solid rgba(200, 169, 110, 0.3);
+}
+/* il-page-wrapper removed — structure now matches outdoor overlay pattern */
+.il-overlay-close--top {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 100000;
+  width: auto;
+  padding: 0 14px;
 }

@@ -76,8 +76,6 @@ const SearchIcon = () => (
 );
 
 /* ─── PDF CARD ───────────────────────────────────────────── */
-const PLACEHOLDER_THUMB = "https://images.unsplash.com/photo-1565814636199-ae8133055c1c?w=400&q=80";
-
 function PdfCard({ item }) {
   const [imgFailed, setImgFailed] = useState(false);
 
@@ -109,14 +107,15 @@ function PdfCard({ item }) {
             <div className="dl-card-img-badge">PDF</div>
           </>
         ) : (
+          /* FIX: Updated SVG fallback colors to work on white card background */
           <svg viewBox="0 0 56 70" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="1" y="1" width="54" height="68" rx="5"
-              fill="#0d0d0d" stroke="#242424" strokeWidth="1.5"/>
-            <path d="M36 1 L54 19 L36 19 Z" fill="#161616" stroke="#242424" strokeWidth="1"/>
-            <path d="M36 1 L36 19 L54 19" stroke="#242424" strokeWidth="1.5"/>
-            <line x1="10" y1="30" x2="46" y2="30" stroke="#1e1e1e" strokeWidth="1.5"/>
-            <line x1="10" y1="37" x2="46" y2="37" stroke="#1e1e1e" strokeWidth="1.5"/>
-            <line x1="10" y1="44" x2="34" y2="44" stroke="#1e1e1e" strokeWidth="1.5"/>
+              fill="#f5f5f5" stroke="#e0e0e0" strokeWidth="1.5"/>
+            <path d="M36 1 L54 19 L36 19 Z" fill="#ebebeb" stroke="#e0e0e0" strokeWidth="1"/>
+            <path d="M36 1 L36 19 L54 19" stroke="#e0e0e0" strokeWidth="1.5"/>
+            <line x1="10" y1="30" x2="46" y2="30" stroke="#d0d0d0" strokeWidth="1.5"/>
+            <line x1="10" y1="37" x2="46" y2="37" stroke="#d0d0d0" strokeWidth="1.5"/>
+            <line x1="10" y1="44" x2="34" y2="44" stroke="#d0d0d0" strokeWidth="1.5"/>
             <rect x="9" y="53" width="26" height="9" rx="2"
               fill="#c8a96e" fillOpacity="0.15"/>
             <text x="22" y="60.5" textAnchor="middle"
@@ -163,11 +162,13 @@ export default function DownloadsPage() {
   const handleSection = (s) => { setSection(s); setCategory("All"); };
 
   /* Filtered list */
+  /* FIX: Added productName to search so searching "BARILE" etc works */
   const filtered = useMemo(() => {
     const q = search.toLowerCase();
     return all.filter(d => {
       const matchSearch   = !q
         || d.name.toLowerCase().includes(q)
+        || d.productName.toLowerCase().includes(q)
         || d.category.toLowerCase().includes(q)
         || d.section.toLowerCase().includes(q);
       const matchSection  = section  === "All" || d.section   === section;
@@ -187,7 +188,9 @@ export default function DownloadsPage() {
     return map;
   }, [filtered]);
 
-  const multiSection = sections.length > 2; // more than "All" + one section
+  /* FIX: Was > 2 so tabs never showed with only Indoor + Outdoor.
+     Now > 1 means tabs appear whenever there are 2+ real sections. */
+  const multiSection = sections.length > 1;
 
   return (
     <div className="dl-page">
@@ -223,7 +226,7 @@ export default function DownloadsPage() {
           )}
         </div>
 
-        {/* Section tabs — only appear when you have multiple sections */}
+        {/* Section tabs — appear when there are 2+ real sections */}
         {multiSection && (
           <div className="dl-tabs">
             {sections.map(s => (

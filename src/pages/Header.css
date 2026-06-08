@@ -83,6 +83,15 @@
 .navbar-nav .nav-link.show {
   color: #c8a96e !important;
 }
+/* ── Solid header on product pages (no blur/transparency) ── */
+.indoor-page .custom-nav,
+.outdoor-page .custom-nav {
+  position: relative;
+  background: #0a0a0a !important;
+  backdrop-filter: none;
+  border-bottom: 1px solid #1e1e1e;
+}
+
 /* ── Mobile fixes ── */
 @media (max-width: 991px) {
 

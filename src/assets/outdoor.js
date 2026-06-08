@@ -226,7 +226,7 @@ export const OUTDOOR_CATEGORIES = [
         id: "neoluce",
         name: "NEOLUCE",
         desc: "Sleek portable outdoor lamp — refined silhouette with cylindrical light head, slim vertical stem and sturdy flared base. Tri-CCT selectable. Matte black die-cast aluminium. Ideal for café terraces, garden dining, hotels and outdoor events.",
-        img: "/images/outdoor_images/neoluce.jpg",
+        img: "/images/outdoor_images/neoluce.jpeg",
         datasheet: {
           cri: "90", cct: "TRI CCT",
           beam: "49°", ip: "IP54",
@@ -664,7 +664,7 @@ export const OUTDOOR_CATEGORIES = [
         id: "monozionale-s",
         name: "MONOZIONALE - S",
         desc: "Modern cylindrical wall-mounted light for outdoor and indoor use — single direction projection (downward or upward depending on installation) for focused illumination that enhances architectural elements.",
-        img: "/images/outdoor_images/monozionale-s.jpg",
+        img: "/images/outdoor_images/monozionale-s.jpeg",
         datasheet: {
           cri: "80", cct: "3000K / 4000K / 6000K",
           beam: "60°", ip: "IP54",
@@ -1156,7 +1156,7 @@ export const OUTDOOR_CATEGORIES = [
         id: "luna",
         name: "LUNA",
         desc: "Moon lamp with lifelike lunar textures that recreates the serene glow of the moon. Soft and gentle 360° glow — ideal for bedrooms, gardens, patios or cosy corners. Energy-efficient LED with IP65 rating for outdoor use. Available in three sizes.",
-        img: "/images/outdoor_images/luna.jpg",
+        img: "/images/outdoor_images/luna.jpeg",
         datasheet: {
           cri: "80+", cct: "3000K",
           beam: "360°", ip: "IP65",
