@@ -130,11 +130,13 @@
   }
 
   .custom-nav {
-    position: fixed; /* Fixed so it stays at top when scrolling */
+    position: fixed !important;
     flex-wrap: wrap;
     height: auto;
     padding: 12px 16px;
-    background: rgba(0,0,0,0.85) !important;
+    background: #0a0a0a !important;
+    border-bottom: 1px solid #1e1e1e !important;
+    backdrop-filter: none !important;
   }
 
   .navbar-logo-img {
