@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { INDOOR_CATEGORIES } from "../assets/Indoor";
 import Header from "./Headers";
+import LogoImg from "../assets/image.png";
 import "./IndoorLighting.css";
 
 /* ─── Icons ───────────────────────────────────────────────── */
@@ -383,9 +384,27 @@ export default function IndoorLighting({ onClose }) {
 
   return (
     <div className="il-overlay" onMouseDown={(e) => e.target === e.currentTarget && handleClose()}>
+
+      {/* Mobile top bar — logo + close button */}
+      <div className="il-mobile-topbar">
+        <Link to="/" className="il-mobile-logo">
+          <img src={LogoImg} alt="Stellmore Italia" />
+        </Link>
+        <button
+          type="button"
+          className="il-mobile-close"
+          onClick={handleClose}
+          aria-label="Close"
+        >
+          <IconClose />
+          <span>Close</span>
+        </button>
+      </div>
+
+      {/* Desktop close button (hidden on mobile) */}
       <button
         type="button"
-        className="il-overlay-close il-overlay-close--top"
+        className="il-overlay-close il-overlay-close--top il-desktop-close"
         onClick={handleClose}
         aria-label="Close"
       >

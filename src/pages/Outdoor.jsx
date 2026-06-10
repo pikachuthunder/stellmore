@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { OUTDOOR_CATEGORIES } from "../assets/outdoor.js";
 import Header from "./Headers";
+import LogoImg from "../assets/image.png";
 import "./OutdoorLighting.css";
 
 /* ─── Icons ───────────────────────────────────────────────── */
@@ -391,9 +392,27 @@ export default function OutdoorLighting({ onClose }) {
 
   return (
     <div className="ol-overlay" onMouseDown={(e) => e.target === e.currentTarget && handleClose()}>
+
+      {/* Mobile top bar — logo + close button */}
+      <div className="ol-mobile-topbar">
+        <Link to="/" className="ol-mobile-logo">
+          <img src={LogoImg} alt="Stellmore Italia" />
+        </Link>
+        <button
+          type="button"
+          className="ol-mobile-close"
+          onClick={handleClose}
+          aria-label="Close"
+        >
+          <IconClose />
+          <span>Close</span>
+        </button>
+      </div>
+
+      {/* Desktop close button (hidden on mobile) */}
       <button
         type="button"
-        className="ol-overlay-close ol-overlay-close--top"
+        className="ol-overlay-close ol-overlay-close--top ol-desktop-close"
         onClick={handleClose}
         aria-label="Close"
       >

@@ -4,6 +4,63 @@
    defined in categories.css
 ───────────────────────────────────────────── */
 
+/* ── Mobile top bar (logo + close) — hidden on desktop ── */
+.ol-mobile-topbar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .ol-mobile-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: #0a0a0a;
+    border-bottom: 1px solid #1e1e1e;
+    padding: 10px 16px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 0;
+    z-index: 100003;
+  }
+
+  .ol-mobile-logo img {
+    height: 40px;
+    width: auto;
+    display: block;
+  }
+
+  .ol-mobile-close {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    color: #f0ece4;
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 7px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  /* Hide the desktop close button on mobile */
+  .ol-desktop-close {
+    display: none !important;
+  }
+
+  /* Hide the Bootstrap header on mobile inside overlay */
+  .ol-overlay .custom-nav {
+    display: none !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .ol-mobile-topbar { display: none !important; }
+}
+
 /* ── Overlay ─────────────────────────────────────── */
 .ol-overlay {
   position: fixed;
