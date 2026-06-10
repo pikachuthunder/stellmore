@@ -255,17 +255,8 @@ export function BrandJourney() {
               </div>
               <div style={{ padding: '25px' }}>
                 <h3 style={{ fontSize: '1.5rem', color: '#fff', marginBottom: '5px' }}>{brand.name}</h3>
-                
-                {/* RESTORED BRAND COLORS */}
                 <div className="bj-tagline" style={{ color: brand.accent }}>{brand.tagline}</div>
                 <div className="bj-divider" style={{ background: brand.accent, opacity: 0.4 }} />
-                
-                <p style={{ fontSize: '0.85rem', color: '#888', marginBottom: '20px', lineHeight: '1.6' }}>{brand.desc}</p>
-                <div style={{ display: 'flex', gap: '8px' }}>
-                    {brand.photos.map((p, i) => (
-                        <img key={i} src={p} onClick={() => setLightbox(p)} style={{ width: '32%', height: '60px', objectFit: 'cover', cursor: 'pointer', borderRadius: '4px', border: '1px solid #1a1a1a' }} alt="" />
-                    ))}
-                </div>
               </div>
             </div>
           ))}

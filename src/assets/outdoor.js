@@ -16,7 +16,7 @@ export const OUTDOOR_CATEGORIES = [
     id: "spike",
     label: "Spike & Ground Lights",
     tagline: "Precision ground accents for planting, paths and landscape features.",
-    img: PLACEHOLDER_IMG,
+    img: "/images/outdoor_images/terra.png",
     products: [
 
       // ── TERRA family (6W / 12W / 24W) ──
@@ -103,7 +103,7 @@ export const OUTDOOR_CATEGORIES = [
     id: "inground",
     label: "Inground Lights",
     tagline: "Flush to the earth — invisible by day, dramatic by night.",
-    img: PLACEHOLDER_IMG,
+    img: "/images/outdoor_images/prato.png",
     products: [
 
       // ── PRATO family (3W → 40W) ──
@@ -169,7 +169,7 @@ export const OUTDOOR_CATEGORIES = [
     id: "bollard",
     label: "Table & Bollard Lamps",
     tagline: "Sculptural forms that anchor garden paths and terraces.",
-    img: PLACEHOLDER_IMG,
+    img: "/images/outdoor_images/tavolo.jpeg",
     products: [
 
       // ── TAVOLO ──
@@ -303,7 +303,7 @@ export const OUTDOOR_CATEGORIES = [
     id: "street",
     label: "Wall Spotlights",
     tagline: "170° rotation — direct the beam wherever it's needed.",
-    img: PLACEHOLDER_IMG,
+    img: "/images/outdoor_images/punto.png",
     products: [
 
       // ── PUNTO family (5W / 10W / 12W) ──
@@ -414,7 +414,7 @@ export const OUTDOOR_CATEGORIES = [
     id: "wallwasher",
     label: "Wall & Ceiling Lights",
     tagline: "Cylindrical, linear and geometric forms for architectural surfaces.",
-    img: PLACEHOLDER_IMG,
+    img: "/images/outdoor_images/cornice.png",
     products: [
 
       // ── CORNICE ──
@@ -1033,7 +1033,7 @@ export const OUTDOOR_CATEGORIES = [
     id: "wallceiling",
     label: "Geometric, Lantern & Recessed",
     tagline: "Bold cubes, discs, lanterns, and flush recessed fixtures.",
-    img: PLACEHOLDER_IMG,
+    img: "/images/outdoor_images/zeno.png",
     products: [
 
       // ── ZENO family (10W / 15W / 20W) ──
@@ -1148,7 +1148,7 @@ export const OUTDOOR_CATEGORIES = [
     id: "decorative",
     label: "Decorative & Special Lighting",
     tagline: "Artful moon lamps, decorative accents and unique statement pieces.",
-    img: PLACEHOLDER_IMG,
+    img: "/images/outdoor_images/luna.jpeg",
     products: [
 
       // ── LUNA (moon lamp) ──
@@ -1187,7 +1187,7 @@ export const OUTDOOR_CATEGORIES = [
     id: "street-road",
     label: "Street & Road Lighting",
     tagline: "High-output modular fixtures engineered for highways, streets and industrial zones.",
-    img: PLACEHOLDER_IMG,
+    img: "/images/outdoor_images/stradale.jpeg",
     products: [
 
       // ── STRADALE (200W street light) ──
@@ -1211,6 +1211,50 @@ export const OUTDOOR_CATEGORIES = [
         },
         variants: [
           { wattage: "200W", lumens: "26,000 lm", dims: "570×200×90 mm", code: "STR-SSD-200", tag: null },
+        ],
+      },
+
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // NEON FLEX
+  // ─────────────────────────────────────────────
+  {
+    id: "neon-flex",
+    label: "Neon Flex",
+    tagline: "Flexible silicone neon strips for architectural, landscape and decorative lighting.",
+    img: "/images/outdoor_images/neon_flex.jpg",
+    products: [
+
+      // ── VRNS / VRNFP Neon Flex ──
+      {
+        id: "neon-flex-strip",
+        name: "Neon Flex",
+        desc: "The SMD IP65 LED Strip Light (24V) is a reliable and efficient lighting solution designed for both indoor and outdoor applications. Featuring high-quality SMD LEDs and a durable silicone coating, this strip light offers uniform brightness with excellent protection against dust and water splashes. Operating on a safe 24V DC system, it ensures stable performance and reduced voltage drop.",
+        img: "/images/outdoor_images/neon_flex.jpg",
+        datasheet: {
+          cri: ">80", cct: "2700K / 3000K / 4000K / 5000K / 6000K",
+          beam: "120°", ip: "IP65",
+          voltage: "24V / 12VDC",
+          lifespan: "50,000 hrs", warranty: "—",
+          efficiency: "—", power_factor: ">0.9",
+          adjustable: "No", operating_temp: "—",
+          led_chip: "CREE", finish: "—",
+          material: "Silicon Tube",
+          dimming: "—",
+          certifications: [],
+          downloads: [],
+          application: "Architectural outlines, façade lighting, landscape borders, decorative signage, hospitality interiors and outdoor feature lighting.",
+        },
+        variants: [
+          { wattage: "9W/MTR",  lumens: "1,250 lm", dims: "8×8 mm",   code: "VRNFP-8X8-SB",   tag: "Side Bend · 5 / 10 mtr" },
+          { wattage: "9W/MTR",  lumens: "1,250 lm", dims: "6×12 mm",  code: "VRNFP-6X12-SB",  tag: "Side Bend · 5 / 10 mtr" },
+          { wattage: "9W/MTR",  lumens: "1,250 lm", dims: "10×10 mm", code: "VRNFP-10X10-SB", tag: "Side Bend · 5 / 10 mtr" },
+          { wattage: "9W/MTR",  lumens: "1,250 lm", dims: "12×12 mm", code: "VRNFP-12X12-SB", tag: "Side Bend · 5 / 10 mtr" },
+          { wattage: "9W/17W/MTR",  lumens: "1,250 / 1,700 lm", dims: "14×14 mm", code: "VRNFP-14X14-SB", tag: "Side Bend · Top Bend · 5 / 10 mtr" },
+          { wattage: "9W/17W/MTR",  lumens: "1,250 / 1,700 lm", dims: "16×16 mm", code: "VRNFP-16X16-SB", tag: "Side Bend · Top Bend · 5 / 10 mtr" },
+          { wattage: "9W/17W/MTR",  lumens: "1,250 / 1,700 lm", dims: "20×14 mm", code: "VRNFP-20X14-SB", tag: "Side Bend · Top Bend · 5 / 10 mtr" },
         ],
       },
 

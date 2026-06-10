@@ -5,7 +5,7 @@ import Home from './pages/Home'
 import Projects from "./pages/Projects"
 import Indoor from "./pages/indoor"
 import Outdoor from "./pages/Outdoor"
-import Industrial from './pages/industrial'
+// import Industrial from './pages/industrial'
 import DownloadsPage from "./pages/Downloads"
 import AboutUsPage from "./pages/Aboutus"
 import LightingControls from "./pages/Lightingcontrols"
@@ -20,7 +20,7 @@ function App() {
         <Route path="/indoor-lighting"    element={<Indoor />} />
         <Route path="/outdoor-lighting"   element={<Outdoor />} />
         <Route path="/lighting-controls"   element={<LightingControls />} />
-        <Route path="/industrial-lighting" element={<Industrial />} />
+        {/* <Route path="/industrial-lighting" element={<Industrial />} /> */}
         <Route path="/downloads"          element={<DownloadsPage />} />
         <Route path="/about"              element={<AboutUsPage />} />
       </Routes>

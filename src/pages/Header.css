@@ -87,7 +87,7 @@
 .indoor-page .custom-nav,
 .outdoor-page .custom-nav {
   position: relative;
-  background: #0a0a0a !important;
+  /* background: #0a0a0a !important; */
   backdrop-filter: none;
   border-bottom: 1px solid #1e1e1e;
 }
@@ -152,4 +152,12 @@
     border: none;
     padding-left: 16px;
   }
+}
+/* ── Outdoor overlay — header fully transparent, no blur ── */
+.ol-overlay .custom-nav {
+  position: relative !important;
+  background: transparent !important;
+  backdrop-filter: none !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }

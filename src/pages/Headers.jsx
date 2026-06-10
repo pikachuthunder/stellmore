@@ -6,7 +6,7 @@ import Image from '../assets/image.png';
 
 function Header() {
   return (
-    <Navbar sticky="top" expand="lg" className="custom-nav bg-body-tertiary">
+    <Navbar sticky="top" expand="lg" className="custom-nav">
       <Container fluid className="px-3 px-md-5">
         <Navbar.Brand as={Link} to="/" className="nav-brand">
           <img src={Image} alt="StellaMore Logo" className="navbar-logo-img me-2" />

@@ -2,16 +2,20 @@
 
 .dl-page {
   min-height: 100vh;
-  background: #f8f7f7;
+  background: #ffffff;
   color: #1a1a1a;
   font-family: var(--font-body, 'DM Sans', sans-serif);
 }
 
-/* ── HERO ─────────────────────────────────────────────────── */
+/* Force hero text dark now that background is white */
+.dl-hero,
+.dl-hero * {
+  --nav-link-color: #1a1a1a;
+}
 .dl-hero {
   padding: 64px 48px 48px;
   border-bottom: 1px solid #e0e0e0;
-  background: linear-gradient(180deg, #0e0e0e 0%, #080808 100%);
+  background: #ffffff;
 }
 .dl-hero-eye {
   font-size: 0.62rem;
@@ -24,13 +28,13 @@
   font-size: clamp(2rem, 4vw, 2.8rem);
   font-weight: 300;
   letter-spacing: -0.02em;
-  color: #fff;
+  color: #1a1a1a;
   margin: 0 0 12px;
   font-family: var(--font-display, 'Cormorant Garamond', serif);
 }
 .dl-hero-sub {
   font-size: 0.85rem;
-  color: #aaa;
+  color: #666;
   line-height: 1.7;
   margin: 0 0 20px;
   max-width: 480px;
@@ -250,11 +254,11 @@
   aspect-ratio: 4 / 3;
   overflow: hidden;
   border-radius: 6px 6px 0 0;
-  background: #f5f5f5;
+  background: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #f0f0f0;
 }
 .dl-card-thumb svg {
   width: 56px;
